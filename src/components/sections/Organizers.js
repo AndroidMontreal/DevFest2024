@@ -1,8 +1,7 @@
 'use client';
-import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import PillButton from '@/components/elements/PillButton';
-import { organizers } from '@/data/data';
 import OrganizersCard from '@/components/elements/OrganizersCard';
+import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
+import { organizers } from '@/data/data';
 
 const Organizers = () => {
   return (
@@ -12,16 +11,8 @@ const Organizers = () => {
         subTitle="A joint effort with Montreal's leading tech communities"
         titleClassName="max-w-xl"
         subTitleClassName="max-w-lg" />
-
       <OrganizersCard organizers={organizers} />
-
-      <PillButton onClick={() => {
-        window.open('https://www.papercall.io/devfest-2024-mtl', '_blank');
-      }} label="Call for paper" />
-
     </div>
-
-
   );
 };
 

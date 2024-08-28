@@ -2,12 +2,12 @@
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
 import PillButton from '@/components/elements/PillButton';
 
-const SpeakerCall = () => {
+const Speakers = () => {
   return (
     <div className="flex flex-col gap-6 text-center items-center justify-center my-10">
       <TitleWithSubtitle
-        title="Call for Speakers"
-        subTitle="Got a groundbreaking idea or tech innovation to share? We got just the platform for you to join us as a speaker and make an impact!"
+        title="Speakers"
+        subTitle="Learn from the best in the industry. Our speakers are experts in their field and are excited to share their knowledge with you."
         titleClassName="max-w-2xl"
         subTitleClassName="max-w-xl" />
       <PillButton onClick={() => {
@@ -18,4 +18,4 @@ const SpeakerCall = () => {
   );
 };
 
-export default SpeakerCall;
+export default Speakers;

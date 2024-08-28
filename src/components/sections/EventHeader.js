@@ -33,7 +33,7 @@ const EventHeader = () => {
         <PillButton onClick={() => {
           window.open('https://devfestmontreal2024.eventbrite.ca', '_blank');
         }} label="Get your tickets" />
-        
+
       </div>
     </div>
   );
