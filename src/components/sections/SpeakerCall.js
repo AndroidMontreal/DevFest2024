@@ -11,7 +11,7 @@ const SpeakerCall = () => {
         titleClassName="max-w-2xl"
         subTitleClassName="max-w-xl" />
       <PillButton onClick={() => {
-        window.open('https://discord.gg/zhSqkWTS', '_blank');
+        window.open('https://www.papercall.io/devfest-2024-mtl', '_blank');
       }} label="Submit your proposal" />
 
     </div>

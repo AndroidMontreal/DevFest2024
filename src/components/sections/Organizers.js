@@ -16,7 +16,7 @@ const Organizers = () => {
       <OrganizersCard organizers={organizers} />
 
       <PillButton onClick={() => {
-        window.open('https://www.papercall.io/devfest-2023-mtl', '_blank');
+        window.open('https://www.papercall.io/devfest-2024-mtl', '_blank');
       }} label="Call for paper" />
 
     </div>
