@@ -25,38 +25,22 @@ export const organizers = [
 
 export const sponsors = [
   {
-    logo: '/images/partners/google_developer_groups.svg',
+    level: 'gold',
+    logo: '/images/partners/google_for_developers.svg',
     company: 'Google Developer Groups',
     website: 'https://gdg.community.dev/',
-  }, {
-    logo: '/images/partners/McGill_Faculty_of_engineering.svg',
-    company: 'MC Gill Montreal',
-    website: 'https://www.mcgill.ca/ece/undergrad/information/software-engineering-co-op',
   },
   {
-    logo: '/images/partners/SECloud.svg',
+    level: 'gold',
+    logo: '/images/partners/stream.svg',
+    company: 'Stream',
+    website: 'https://getstream.io/video/sdk/flutter/?utm_source=event&utm_medium=referral&utm_content=&utm_campaign=devfest',
+  },
+  {
+    level: 'gold',
+    logo: '/images/partners/SECloudExperts.svg',
     company: 'SE Cloud Experts',
     website: 'https://se-cloud-experts.com/',
-  },
-  {
-    logo: '/images/partners/transit.svg',
-    company: 'Transit',
-    website: 'https://transitapp.com/jobs',
-  },
-  {
-    logo: '/images/partners/composable.svg',
-    company: 'Composable',
-    website: 'https://www.composables.com/',
-  },
-  {
-    logo: '/images/partners/sada.svg',
-    company: 'SADA',
-    website: 'https://sada.com/',
-  },
-  {
-    logo: '/images/partners/jet_brains.svg',
-    company: 'Jetbrains',
-    website: 'https://www.jetbrains.com/',
   },
 ];
 
@@ -117,5 +101,3 @@ export const eventPhotos = [
       'Last year, we had 800+ attendees, 20+ speakers, 20+ sessions, and 1 amazing event.',
     image: 'https://lh3.googleusercontent.com/pw/AP1GczO4B4h5u6zeCSGNcPagf66c9WqM7KKohKiEDCvUivg-6PzLU7vE69Zm6GvLIRSbD0RG8Xf9C4ct1aGBLG0Bdkw3Zu7aa9nlZK_SuUjiObyPCBE0cf5xI2WlNf5mm1ZVJUFz8fDTEcLyAfSXwffXcWaU=w1401-h934-s-no-gm?authuser=0',
   }];
-
-
