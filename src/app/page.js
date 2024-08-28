@@ -3,7 +3,7 @@ import Header from '@/components/sections/Header';
 import EventHeader from '@/components/sections/EventHeader';
 import SpeakerCall from '@/components/sections/SpeakerCall';
 import Organizers from '@/components/sections/Organizers';
-import Partners from '@/components/sections/Partners';
+import Sponsors from '@/components/sections/Sponsors';
 import EventPhotos from '@/components/sections/EventPhotos';
 import Footer from '@/components/sections/Footer';
 
@@ -15,10 +15,9 @@ export default function Home() {
         <EventHeader />
         <SpeakerCall />
         <Organizers />
-        <Partners />
+        <Sponsors />
         <EventPhotos />
         <Footer />
-
       </div>
     </main>
   );

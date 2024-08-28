@@ -23,7 +23,7 @@ export const organizers = [
     website: 'https://gdgmontreal.com/',
   }];
 
-export const partners = [
+export const sponsors = [
   {
     logo: '/images/partners/google_developer_groups.svg',
     company: 'Google Developer Groups',

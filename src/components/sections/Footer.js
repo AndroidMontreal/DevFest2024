@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className="flex flex-row gap-6 items-start justify-start w-fit">
         <a id="twitter" href="https://twitter.com/gdgmontreal" target="_blank" rel="noopener noreferrer"
-           className="hover:cursor-pointer">
+          className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-x"
@@ -26,8 +26,8 @@ const Footer = () => {
           </svg>
         </a>
         <a id="linkedin" href="https://www.linkedin.com/company/gdg-montreal-android" target="_blank"
-           rel="noopener noreferrer"
-           className="hover:cursor-pointer">
+          rel="noopener noreferrer"
+          className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-linkedin"
@@ -49,9 +49,9 @@ const Footer = () => {
           </svg>
         </a>
 
-        <a id="instgram" href="https://www.instagram.com/https://www.instagram.com/gdgmtl/" target="_blank"
-           rel="noopener noreferrer"
-           className="hover:cursor-pointer">
+        <a id="instgram" href="https://www.instagram.com/gdgmtl/" target="_blank"
+          rel="noopener noreferrer"
+          className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-instagram"
@@ -72,7 +72,7 @@ const Footer = () => {
         </a>
 
         <a id="discord" href="https://discord.gg/zhSqkWTS" target="_blank" rel="noopener noreferrer"
-           className="hover:cursor-pointer">
+          className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-discord"
@@ -96,7 +96,7 @@ const Footer = () => {
         </a>
 
         <a id="youtube" href="https://youtube.com/@gdgmontreal" target="_blank" rel="noopener noreferrer"
-           className="hover:cursor-pointer">
+          className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-youtube"
