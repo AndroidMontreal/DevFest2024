@@ -20,7 +20,7 @@ const Sponsors = () => {
        level="gold"
        titleClassName="max-w-4xl"/>
 
-      <PartnersCard partners={partners.filter(checkSponsorshipLevel('gold'))} />
+      <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel('gold'))} />
 
       <PillButton onClick={() => {
         window.open('https://docs.google.com/presentation/d/1ezmE9o9o-EXhEa_ofPospL9hFGxAYm8xtnV_0m3AqSo/edit?usp=sharing', '_blank');
