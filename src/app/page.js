@@ -14,9 +14,9 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <EventHeader />
         <SpeakerCall />
-        <Organizers />
-        <Sponsors />
         <EventPhotos />
+        <Sponsors />
+        <Organizers />
         <Footer />
       </div>
     </main>
