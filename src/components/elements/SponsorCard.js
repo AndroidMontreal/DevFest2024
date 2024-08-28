@@ -15,11 +15,11 @@ const SponsorCard = ({ sponsors }) => {
             className="flex items-center justify-center bg-gray-400/5 p-2 sm:p-2"
           >
             <Image
-              className="max-h-44 w-auto object-cover hover:opacity-80 transition-opacity hover:grayscale grayscale-0"
+              className="max-h-96 w-auto object-cover hover:opacity-80 transition-opacity hover:grayscale grayscale-0"
               src={partner.logo}
               alt={partner.company}
-              width={150}
-              height={50}
+              width={800}
+              height={500}
             />
           </a>
         ))}

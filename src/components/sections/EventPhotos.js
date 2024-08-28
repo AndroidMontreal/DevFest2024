@@ -3,6 +3,8 @@ import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
 import { eventPhotos } from '@/data/data';
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
+import PillButton from '@/components/elements/PillButton';
+
 
 
 const EventPhotos = () => {
@@ -14,7 +16,7 @@ const EventPhotos = () => {
         titleClassName="max-w-2xl"
         subTitleClassName="max-w-xl" />
       <div
-        className="columns-1 gap-6 sm:columns-2 sm:gap-8 md:columns-2 lg:columns-2 [&>img:not(:first-child)]:mt-8 place-items-center place-content-center"
+        className="columns-1 gap-6 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-3 [&>img:not(:first-child)]:mt-8 place-items-center place-content-center"
       >
         {eventPhotos.map((eventPhoto) => {
           return (
@@ -31,6 +33,9 @@ const EventPhotos = () => {
         })}
       </div>
 
+      <PillButton onClick={() => {
+        window.open('https://photos.app.goo.gl/x9j7BH3nK8TQJLpi6', '_blank');
+      }} label="All pictures" />
     </div>
   );
 };
