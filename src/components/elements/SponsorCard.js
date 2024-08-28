@@ -2,13 +2,13 @@ import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 
 
-const PartnersCard = ({ partners }) => {
+const SponsorCard = ({ sponsors }) => {
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div
         className=" -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 md:grid-cols-3">
 
-        {partners.map((partner) => (
+        {sponsors.map((partner) => (
           <a
             key={uuidv4()} // Add a unique key for each organizer
             href={partner.website}
@@ -20,7 +20,6 @@ const PartnersCard = ({ partners }) => {
               alt={partner.company}
               width={150}
               height={50}
-
             />
           </a>
         ))}
@@ -29,4 +28,4 @@ const PartnersCard = ({ partners }) => {
   );
 };
 
-export default PartnersCard;
+export default SponsorCard;

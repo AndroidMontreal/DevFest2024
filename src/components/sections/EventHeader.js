@@ -20,7 +20,7 @@ const EventHeader = () => {
         >
           <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round" />
         </svg>
-        <p>Guy-Concordia</p>
+        <p>Concordia University Conference Center</p>
       </div>
 
       <TitleWithSubtitle
