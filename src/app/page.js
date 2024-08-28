@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Header from '@/components/sections/Header';
 import EventHeader from '@/components/sections/EventHeader';
-import SpeakerCall from '@/components/sections/SpeakerCall';
+import Speakers from '@/components/sections/Speakers';
 import Organizers from '@/components/sections/Organizers';
 import Sponsors from '@/components/sections/Sponsors';
 import EventPhotos from '@/components/sections/EventPhotos';
@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <div className="flex flex-col gap-20">
         <EventHeader />
-        <SpeakerCall />
+        <Speakers />
         <EventPhotos />
         <Sponsors />
         <Organizers />
