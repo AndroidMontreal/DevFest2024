@@ -1,27 +1,34 @@
 export const organizers = [
   {
-    logo: '/images/organizers/gdg_montreal.png',
-    company: 'Google Developer Group Montreal',
+    logo: '/images/organizers/gdg_montreal.svg',
+    company: 'GDG Montreal',
     website: 'https://gdgmontreal.com/',
   }, {
-    logo: '/images/organizers/Google-flutter-logo.svg',
+    logo: '/images/organizers/fluttermtl.svg',
     company: 'Flutter Montreal',
     website: 'https://fluttermtl.dev/',
   },
   {
-    logo: '/images/organizers/wtm_logo_powered_gdg.png',
+    logo: '/images/organizers/wtm_mtl.svg',
     company: 'WTM Montreal',
     website: 'https://wtmmontreal.com/',
   },
   {
-    logo: '/images/organizers/Google-flutter-logo.svg',
-    company: 'Flutter Montreal',
-    website: 'https://fluttermtl.dev/',
-  }, {
-    logo: '/images/organizers/gdg_montreal.png',
-    company: 'Google Developer Group Montreal',
-    website: 'https://gdgmontreal.com/',
-  }];
+    logo: '/images/organizers/gdg_cloud.svg',
+    company: 'GDG Cloud Montreal',
+    website: 'https://gdg.community.dev/gdg-cloud-montreal/',
+  },
+  {
+    logo: '/images/organizers/gdsc_concordia.svg',
+    company: 'GSDC Concordia',
+    website: 'https://gdsc.community.dev/concordia-university-montreal-canada/',
+  },
+  {
+   logo: '/images/organizers/gdsc_mcgill.svg',
+   company: 'GSDC McGill',
+   website: 'https://gdsc.community.dev/mcgill-university-montreal-canada/',
+ }
+];
 
 export const sponsors = [
   {
