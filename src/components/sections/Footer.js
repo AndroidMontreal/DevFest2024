@@ -25,7 +25,7 @@ const Footer = () => {
             <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
           </svg>
         </a>
-        <a id="linkedin" href="https://www.linkedin.com/company/gdg-montreal-android" target="_blank"
+        <a id="linkedin" href="https://www.linkedin.com/company/gdgmontreal" target="_blank"
           rel="noopener noreferrer"
           className="hover:cursor-pointer">
           <svg
@@ -71,7 +71,7 @@ const Footer = () => {
           </svg>
         </a>
 
-        <a id="discord" href="https://discord.gg/zhSqkWTS" target="_blank" rel="noopener noreferrer"
+        <a id="discord" href="https://discord.gg/rKMxWWDSTT" target="_blank" rel="noopener noreferrer"
           className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
