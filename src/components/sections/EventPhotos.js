@@ -4,7 +4,7 @@ import { eventPhotos } from '@/data/data';
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 import PillButton from '@/components/elements/PillButton';
-
+import styles from './EventPhotos.module.css';
 
 
 const EventPhotos = () => {
@@ -15,22 +15,18 @@ const EventPhotos = () => {
         subTitle="Last year, we had 200+ attendees, 10+ speakers, 10+ sessions, and 1 amazing event."
         titleClassName="max-w-2xl"
         subTitleClassName="max-w-xl" />
-      <div
-        className="columns-1 gap-6 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-3 [&>img:not(:first-child)]:mt-8 place-items-center place-content-center"
-      >
-        {eventPhotos.map((eventPhoto) => {
-          return (
-            <Image
-              key={uuidv4()}
-              src={eventPhoto.image}
-              alt={eventPhoto.title}
-              className="rounded-2xl mt-6 bg-white w-auto"
-              width={500} // Adjust width as needed
-              height={300} // Adjust height as needed
-            />
-          );
-
-        })}
+      <div className={`${styles.container}`}>
+        {eventPhotos.map((eventPhoto) => (
+          <Image
+            src={eventPhoto.image}
+            alt={eventPhoto.title}
+            key={uuidv4()}
+            className={`rounded-2xl bg-white ${styles.child} object-contain`}
+            width={0} // Adjust width as needed
+            height={0} // Adjust height as needed
+            style={{ width: '100%', height: 'auto' }} // optional
+          />
+        ))}
       </div>
 
       <PillButton onClick={() => {
