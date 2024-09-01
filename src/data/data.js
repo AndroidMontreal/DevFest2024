@@ -24,10 +24,10 @@ export const organizers = [
     website: 'https://gdsc.community.dev/concordia-university-montreal-canada/',
   },
   {
-   logo: '/images/organizers/gdsc_mcgill.svg',
-   company: 'GSDC McGill',
-   website: 'https://gdsc.community.dev/mcgill-university-montreal-canada/',
- }
+    logo: '/images/organizers/gdsc_mcgill.svg',
+    company: 'GSDC McGill',
+    website: 'https://gdsc.community.dev/mcgill-university-montreal-canada/',
+  },
 ];
 
 export const sponsors = [
@@ -79,28 +79,4 @@ export const eventPhotos = [
   {
     title: 'DevFest 2023 was so much fun.',
     image: 'https://lh3.googleusercontent.com/pw/AP1GczNcaSw3Sh12JA8gYo0eTp6REZyoogQJPdhyIsbx3m3tb4MpG_jC-gG-r3h8YU65idL3U8qruJeuIw4cP-JVo41f8kLJYSTFncp8iAO_vbtnl7CX2MYzNzppvfedVXC5II8kNGfrNUV5XOHw8LATa7V4=w1401-h934-s-no-gm?authuser=0',
-  },
-  {
-    title: 'DevFest 2023 was so much fun.',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczM_7Wr2marvIZ8IslJbKNvnzno5Ch9BwEsLQeosSgqU3PTo8tQSU_Z_eZSyGdH_hStmDAkX3OO_EzCs-Vy_f5Te5_dwGNXDLjZpU-8n0CWKn0EpmP0EWdb2oTyfmhumwLnbdA35VqjWryYuhXLGnBrk=w1401-h934-s-no-gm?authuser=0',
-  },
-  {
-    title: 'DevFest 2023 was so much fun.',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczMZ6KQ5eaHcgACIvpAZXda7_hPItUTgmkP704UaaJOfmXvLCd4PaQfqF05PVjfJG3sVgiG6S4PV4cr6Z7o3_dJEQeKWaiVtnmfPMl13h23f3ITo3Pq3mZCbKiZcHw7YyOPnj16dCNYCzt4UKJ81-pxq=w1401-h934-s-no-gm?authuser=0',
-  },
-  {
-    title: 'DevFest 2023 was so much fun.',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczNJc_FpCr8OHeI1Da_BoMV0mj5FNOi4zyBFnoTxaV4ijfFXrIExDNqyosLc-TZNEFDX1XaEwCO9vA-t9nCLOM4yaQAnD_v6J_n094_w7ptFYka0eKaCLJNgkAMwumXGfw-z_kpgeGyGxvR8OZTQFGod-w=w1245-h934-s-no-gm?authuser=0',
-  },
-  {
-    title: 'DevFest 2023 was so much fun.',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczO4B4h5u6zeCSGNcPagf66c9WqM7KKohKiEDCvUivg-6PzLU7vE69Zm6GvLIRSbD0RG8Xf9C4ct1aGBLG0Bdkw3Zu7aa9nlZK_SuUjiObyPCBE0cf5xI2WlNf5mm1ZVJUFz8fDTEcLyAfSXwffXcWaU=w1401-h934-s-no-gm?authuser=0',
-  },
-  {
-    title: 'DevFest 2023 was so much fun.',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczOmd39MutMAgLaW_axHvRZe5qQBhlWIUmkEuh4QyO9yZpKxBHzquGvN0ovFcndWLqNY2RFoigWryZa-7EvH0VW72OKK4pg4VORzK1nKgWCum7WBiOdemjdzDSeYMiuVYSPewhuePJlzJW2-CQXkMfKK=w1113-h741-s-no-gm?authuser=0',
-  },
-  {
-    title: 'DevFest 2023 was so much fun.',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczPHkQXssvLefc7W9qc6z3RDUMKlIouU3fKMQgETlTHwGbJwLlcdYVpVjUyUV1oAl08FvKHEpDLw1VT7mgeQ4hGuq8F05xbpYF5jvCQ_na_WKz-G7H_viX6H6wYUkitxggNtyExAvHZxlCY3e42FE4KY=w1113-h741-s-no-gm?authuser=0',
   }];
