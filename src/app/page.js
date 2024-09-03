@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Header from '@/components/sections/Header';
 import EventHeader from '@/components/sections/EventHeader';
 import Speakers from '@/components/sections/Speakers';

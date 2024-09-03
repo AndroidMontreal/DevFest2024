@@ -1,11 +1,20 @@
 'use client';
 import PillButton from '@/components/elements/PillButton';
 import { clsx } from '@/lib/utils';
+import devFestBanner from '@/public/images/logo/devfest-event-banner.jpg';
+import Image from 'next/image';
 
 const EventHeader = () => {
   return (
-    <div className="flex flex-col gap-6 items-center justify-center my-10">
-
+    <div className="flex flex-col gap-6 items-center justify-center">
+      <div className="w-full">
+        <Image
+          src={devFestBanner}
+          className="rounded-lg"
+          alt="DevFest Banner"
+          width="auto"
+        />
+      </div>
       <div
         className="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500 text-center"
       >
