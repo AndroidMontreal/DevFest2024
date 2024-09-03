@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 
-const OrganizersCard = ({ organizers }) => {
+const CommunityCard = ({ communities }) => {
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div
         className=" -mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 md:grid-cols-3">
 
-        {organizers.map((organizer) => (
+        {communities.map((organizer) => (
           <a
             key={uuidv4()} // Add a unique key for each organizer
             href={organizer.website}
@@ -27,4 +27,4 @@ const OrganizersCard = ({ organizers }) => {
   );
 };
 
-export default OrganizersCard;
+export default CommunityCard;

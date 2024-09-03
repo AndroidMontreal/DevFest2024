@@ -9,7 +9,7 @@ const Header = () => {
       <div className="py-3">
         <Image
           src={logo}
-          width={250}
+          width={200}
           alt="Montreal Google Developer Group"
           priority={true}
         />

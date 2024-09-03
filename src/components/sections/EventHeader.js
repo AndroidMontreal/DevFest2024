@@ -7,7 +7,7 @@ const EventHeader = () => {
     <div className="flex flex-col gap-6 items-center justify-center my-10">
 
       <div
-        className="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
+        className="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500 text-center"
       >
         <p>
           <time dateTime="10-09-2024">November 9th, 2024</time>

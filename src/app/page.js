@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Header from '@/components/sections/Header';
 import EventHeader from '@/components/sections/EventHeader';
 import Speakers from '@/components/sections/Speakers';
-import Organizers from '@/components/sections/Organizers';
+import Communities from '@/components/sections/Communities';
 import Sponsors from '@/components/sections/Sponsors';
 import EventPhotos from '@/components/sections/EventPhotos';
 import Footer from '@/components/sections/Footer';
@@ -16,7 +16,7 @@ export default function Home() {
         <Speakers />
         <EventPhotos />
         <Sponsors />
-        <Organizers />
+        <Communities />
         <Footer />
       </div>
     </main>
