@@ -9,7 +9,8 @@ const openSans = Open_Sans({
   display: 'swap',
 });
 export const metadata = {
-  title: 'GDG Montreal - DevFest Montreal 2024', description: 'GDG Montreal - DevFest 2024',
+  title: 'DevFest Montreal 2024 | GDG Montreal',
+  description: 'DevFest Montreal 2024 | Google Developers Group Montreal | GDG Cloud Montreal | WTM Montreal | Flutter Montreal | GDSC Concordia | GDSC McGill',
 };
 
 export default function RootLayout({ children }) {
