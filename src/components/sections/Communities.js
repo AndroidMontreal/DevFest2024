@@ -1,19 +1,19 @@
 'use client';
-import OrganizersCard from '@/components/elements/OrganizersCard';
+import CommunityCard from '@/components/elements/CommunityCard';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import { organizers } from '@/data/data';
+import { communities } from '@/data/data';
 
-const Organizers = () => {
+const Communities = () => {
   return (
     <div className="flex flex-col gap-6 text-center items-center justify-center my-10">
       <TitleWithSubtitle
-        title="Organizers"
+        title="Communities"
         subTitle="A joint effort with Montreal's leading tech communities"
         titleClassName="max-w-xl"
         subTitleClassName="max-w-lg" />
-      <OrganizersCard organizers={organizers} />
+      <CommunityCard communities={communities} />
     </div>
   );
 };
 
-export default Organizers;
+export default Communities;

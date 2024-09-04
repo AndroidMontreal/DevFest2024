@@ -11,9 +11,9 @@ const EventPhotos = () => {
   return (
     <div className="flex flex-col gap-8 text-center items-center justify-center my-10">
       <TitleWithSubtitle
-        title="DevFest 2023 was so much fun."
+        title="Last Year at DevFest Montreal"
         subTitle="Last year, we had 200+ attendees, 10+ speakers, 10+ sessions, and 1 amazing event."
-        titleClassName="max-w-2xl"
+        titleClassName="max-w-4xl"
         subTitleClassName="max-w-xl" />
       <div
         className="columns-1 gap-6 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-3 [&>img:not(:first-child)]:mt-8 place-items-center place-content-center"
