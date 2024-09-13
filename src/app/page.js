@@ -20,9 +20,7 @@ export default function Home() {
       <section id="communities" className="scroll-mt-20">
         <Communities />
       </section>
-      <section id="venue" className="scroll-mt-20">
-        <Venue venueData={venue} />
-      </section>
+      <Venue venueData={venue} />
     </div>
   );
 }
