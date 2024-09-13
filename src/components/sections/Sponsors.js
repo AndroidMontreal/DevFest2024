@@ -16,15 +16,15 @@ const Sponsors = () => {
 
 
       <SponsorLevelTitle
-       title= "Gold"
-       level="gold"
-       titleClassName="max-w-4xl"/>
+        title="Gold"
+        level="gold"
+        titleClassName="max-w-4xl" />
 
       <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel('gold'))} />
 
-      <PillButton onClick={() => {
-        window.open('https://docs.google.com/presentation/d/1ezmE9o9o-EXhEa_ofPospL9hFGxAYm8xtnV_0m3AqSo/edit?usp=sharing', '_blank');
-      }} label="Sponsorship Proposal" />
+      <PillButton
+        href="https://docs.google.com/presentation/d/1ezmE9o9o-EXhEa_ofPospL9hFGxAYm8xtnV_0m3AqSo/edit?usp=sharing"
+        label="Sponsorship Proposal" />
 
     </div>
 
@@ -34,7 +34,7 @@ const Sponsors = () => {
 function checkSponsorshipLevel(level) {
   return function(partner) {
     return level === partner.level;
-  }
+  };
 }
 
 export default Sponsors;

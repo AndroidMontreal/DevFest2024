@@ -16,7 +16,7 @@ const Speakers = () => {
   const speakers = selectedYear === 2023 ? speakers2023 : speakers2024;
 
   return (
-    <div className="flex flex-col gap-6 text-center items-center justify-center my-10">
+    <div id="speakers" className="flex flex-col gap-6 text-center items-center justify-center my-24">
       <TitleWithSubtitle
         title="Speakers"
         subTitle="Learn from the best in the industry. Our speakers are experts in their field and are excited to share their knowledge with you."
@@ -25,16 +25,14 @@ const Speakers = () => {
 
       <YearSelector years={[2023, 2024]} selectedYear={selectedYear} handleYearChange={handleYearChange} />
 
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-7xl mx-auto">
+      <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
         {speakers.map(speaker => (
-          <li key={speaker.name} className="flex items-center">
+          <li key={speaker.name} className="flex items-start">
             <SpeakerCard speaker={speaker} />
           </li>
         ))}
       </ul>
-      <PillButton onClick={() => {
-        window.open('https://www.papercall.io/devfest-2024-mtl', '_blank');
-      }} label="Submit your proposal" />
+      <PillButton href="https://www.papercall.io/devfest-2024-mtl" label="Submit your proposal" />
     </div>
   );
 };

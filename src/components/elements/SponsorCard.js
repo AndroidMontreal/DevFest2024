@@ -12,7 +12,7 @@ const SponsorCard = ({ sponsors }) => {
           <a
             key={uuidv4()} // Add a unique key for each organizer
             href={partner.website}
-            className="flex items-center justify-center bg-gray-400/5 p-2 sm:p-2"
+            className="flex items-center justify-center  p-2 sm:p-2"
           >
             <Image
               className="max-h-96 w-auto object-cover hover:opacity-80 transition-opacity hover:grayscale grayscale-0"

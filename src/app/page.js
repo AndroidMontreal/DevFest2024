@@ -1,23 +1,18 @@
-import Header from '@/components/sections/Header';
 import EventHeader from '@/components/sections/EventHeader';
-import Speakers from '@/components/sections/Speakers';
 import Communities from '@/components/sections/Communities';
 import Sponsors from '@/components/sections/Sponsors';
 import EventPhotos from '@/components/sections/EventPhotos';
-import Footer from '@/components/sections/Footer';
+import { eventHeader, venue } from '@/data/data';
+import Venue from '@/components/sections/Venue';
 
 export default function Home() {
   return (
-    <main className="container flex mx-auto px-5 py-2 flex-col">
-      <Header />
-      <div className="flex flex-col gap-20">
-        <EventHeader />
-        <Speakers />
-        <EventPhotos />
-        <Sponsors />
-        <Communities />
-        <Footer />
-      </div>
-    </main>
+    <div className="flex flex-col justify-around gap-20">
+      <EventHeader eventData={eventHeader} />
+      <EventPhotos />
+      <Sponsors />
+      <Communities />
+      <Venue venueData={venue} />
+    </div>
   );
 }

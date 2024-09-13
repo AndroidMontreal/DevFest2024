@@ -11,7 +11,7 @@ const CommunityCard = ({ communities }) => {
           <a
             key={uuidv4()} // Add a unique key for each organizer
             href={organizer.website}
-            className="flex items-center justify-center bg-gray-400/5 p-8 sm:p-10"
+            className="flex items-center justify-center  p-8 sm:p-10"
           >
             <Image
               className="max-h-52 w-auto object-contain hover:opacity-80 transition-opacity hover:grayscale grayscale-0"

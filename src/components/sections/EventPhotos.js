@@ -6,7 +6,6 @@ import { v4 as uuidv4 } from 'uuid';
 import PillButton from '@/components/elements/PillButton';
 
 
-
 const EventPhotos = () => {
   return (
     <div className="flex flex-col gap-8 text-center items-center justify-center my-10">
@@ -33,9 +32,7 @@ const EventPhotos = () => {
         })}
       </div>
 
-      <PillButton onClick={() => {
-        window.open('https://photos.app.goo.gl/x9j7BH3nK8TQJLpi6', '_blank');
-      }} label="All pictures" />
+      <PillButton href="https://photos.app.goo.gl/x9j7BH3nK8TQJLpi6" label="All pictures" />
     </div>
   );
 };

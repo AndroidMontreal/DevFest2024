@@ -1,13 +1,35 @@
+import Link from 'next/link';
+
 const Footer = () => {
   return (
     <footer
       id="footer"
-      className="flex flex-col sm:flex-row items-center justify-between gap-3 w-full text-gray-500 pb-3 text-center sm:text-start">
-      <div className="w-full text-gray-500">© {new Date().getFullYear()} GDG Montreal. All rights reserved.</div>
+      className="container flex flex-col sm:flex-row mx-auto py-7 items-center justify-around rounded-ss-2xl  rounded-se-2xl gap-3 w-full bg-black text-gray-300 pb-3 text-center sm:text-start">
+
+      <div className="text-gray-300">© {new Date().getFullYear()} GDG Montreal. All rights reserved.</div>
+
+      <div className="flex flex-row gap-6 items-start justify-start w-fit">
+
+        <Link id="twitter" href="https://www.papercall.io/devfest-2024-mtl" target="_blank" rel="noopener noreferrer"
+              className="hover:cursor-pointer">
+          Call for paper
+        </Link>
+        <Link id="twitter"
+              href="https://docs.google.com/presentation/d/1ezmE9o9o-EXhEa_ofPospL9hFGxAYm8xtnV_0m3AqSo/edit?usp=sharing"
+              target="_blank" rel="noopener noreferrer"
+              className="hover:cursor-pointer">
+          Sponsorship proposal
+        </Link>
+        <Link id="twitter" href="/code-of-conduct" target="_blank" rel="noopener noreferrer"
+              className="hover:cursor-pointer">
+          Code of conduct
+        </Link>
+
+      </div>
 
       <div className="flex flex-row gap-6 items-start justify-start w-fit">
         <a id="twitter" href="https://twitter.com/gdgmontreal" target="_blank" rel="noopener noreferrer"
-          className="hover:cursor-pointer">
+           className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-x"
@@ -26,8 +48,8 @@ const Footer = () => {
           </svg>
         </a>
         <a id="linkedin" href="https://www.linkedin.com/company/gdgmontreal" target="_blank"
-          rel="noopener noreferrer"
-          className="hover:cursor-pointer">
+           rel="noopener noreferrer"
+           className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-linkedin"
@@ -50,8 +72,8 @@ const Footer = () => {
         </a>
 
         <a id="instgram" href="https://www.instagram.com/gdgmtl/" target="_blank"
-          rel="noopener noreferrer"
-          className="hover:cursor-pointer">
+           rel="noopener noreferrer"
+           className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-instagram"
@@ -72,7 +94,7 @@ const Footer = () => {
         </a>
 
         <a id="discord" href="https://discord.gg/rKMxWWDSTT" target="_blank" rel="noopener noreferrer"
-          className="hover:cursor-pointer">
+           className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-discord"
@@ -96,7 +118,7 @@ const Footer = () => {
         </a>
 
         <a id="youtube" href="https://youtube.com/@gdgmontreal" target="_blank" rel="noopener noreferrer"
-          className="hover:cursor-pointer">
+           className="hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-youtube"

@@ -1,59 +1,51 @@
 'use client';
-import PillButton from '@/components/elements/PillButton';
-import { clsx } from '@/lib/utils';
-import devFestBanner from '@/public/images/logo/devfest-event-banner.jpg';
 import Image from 'next/image';
+import { CalendarDaysIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import PillButton from '@/components/elements/PillButton';
+import Link from 'next/link';
 
-const EventHeader = () => {
+const EventHeader = ({
+                       eventData,
+                     }) => {
   return (
-    <div className="flex flex-col gap-6 items-center justify-center">
-      <div className="w-full">
-        <Image
-          src={devFestBanner}
-          className="rounded-lg"
-          alt="DevFest Banner"
-          width="auto"
-        />
-      </div>
-      <div
-        className="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500 text-center"
-      >
-        <p>
-          <time dateTime="10-09-2024">November 9th, 2024</time>
-        </p>
+    <div className="relative pt-28">
+      <div className="container mx-auto px-4 flex flex-col items-center lg:flex-row justify-around">
 
-        <svg
-          aria-hidden="true"
-          viewBox="0 0 6 6"
-          className="h-1.5 w-1.5 overflow-visible fill-current stroke-current hidden sm:block"
-        >
-          <path d="M3 0L6 3L3 6L0 3Z" strokeWidth="2" strokeLinejoin="round" />
-        </svg>
-        <p>Concordia University Conference Center</p>
-      </div>
+        <div className="mb-6 md:mb-0 text-left md:text-left">
+          <h1 className="text-6xl font-semibold tracking-tighter text-gray-800 py-3">{eventData.eventName} <br />
+            <span className="font-semibold">{eventData.eventCity}</span>
+          </h1>
+          <p className="text-gray-600">{eventData.year}</p>
+          <p className="text-gray-600 max-w-xl">{eventData.description}</p>
 
-      <div className="flex gap-6 flex-col place-items-center text-center">
-        <h1
-          className={clsx(
-            'text-[min(12vw,72px)] leading-[1.3] tracking-tighter font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700',
-            'max-w-4xl',
-          )}
-        >
-          Devfest Montreal 2024
-        </h1>
-        <p className={clsx('font-normal text-gray-900', 'max-w-4xl')}>
-          DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google’s developer tools.
-        </p>
-      </div>
 
-      <div className="flex md:flex-row flex-col gap-5">
-        <PillButton onClick={() => {
-          window.open('https://devfestmontreal2024.eventbrite.ca', '_blank');
-        }} label="Get your tickets" />
+          <div className="flex text-black font-medium lg:items-center my-5 justify-start lg:justify-start">
+            <CalendarDaysIcon className="h-5 w-5 text-gray-500 mr-2" />
+            <p className="text-gray-700">{eventData.date}</p>
+            <MapPinIcon className="h-6 w-6 text-gray-500 mr-2 ml-4" />
+            <p className="text-gray-700 underline">
+              <Link
+                href="#venue">
+                {eventData.location}
+              </Link>
 
+            </p>
+          </div>
+
+          <PillButton className="my-6 flex" href={eventData.buttonLink} label={eventData.buttonText} />
+
+        </div>
+
+        <div className="p-5">
+          <Image
+            src={eventData.imageUrl}
+            alt={`${eventData.eventName} Banner`}
+            width={600}
+            height={0}
+          />
+        </div>
       </div>
     </div>
   );
 };
-
 export default EventHeader;

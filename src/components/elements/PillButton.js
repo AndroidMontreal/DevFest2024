@@ -1,9 +1,11 @@
 'use client';
 import { clsx } from '@/lib/utils';
+import Link from 'next/link';
 
 const Button = ({
                   id,
                   label = 'Click',
+                  href,
                   type = 'button',
                   action = 'primary',
                   disabled = false,
@@ -12,8 +14,10 @@ const Button = ({
                   onClick, // Add onClick prop for handling click events
                 }) => {
   return (
-    <button
+    <Link
       id={id}
+      href={href}
+      target="_blank"
       type={type}
       disabled={disabled}
       onClick={onClick}
@@ -31,7 +35,7 @@ const Button = ({
       )}
     >
       {label}
-    </button>
+    </Link>
   );
 };
 

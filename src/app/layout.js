@@ -1,6 +1,8 @@
 import GoogleAnalytics from '@/lib/GoogleAnalytics';
 import '@/styles/globals.css';
 import { Open_Sans } from 'next/font/google';
+import Header from '@/components/sections/Header';
+import Footer from '@/components/sections/Footer';
 
 const openSans = Open_Sans({
   weight: ['400', '700'], // Include the font weights you'll use
@@ -16,8 +18,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (<html lang="en">
     <body className={openSans.className}>
+    <Header />
+    <main className="container flex mx-auto py-2 flex-col flex-grow"> {/* Allow main content to expand */}
       {children}
-      <GoogleAnalytics />
+    </main>
+    <Footer />
+    <GoogleAnalytics />
     </body>
-  </html>);
+    </html>
+  );
 }
