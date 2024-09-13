@@ -18,13 +18,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (<html lang="en">
     <body className={openSans.className}>
-    <Header />
-    <main className="container flex mx-auto py-2 flex-col flex-grow"> {/* Allow main content to expand */}
-      {children}
-    </main>
-    <Footer />
-    <GoogleAnalytics />
+      <Header />
+      <main className="container flex mx-auto p-2 flex-col flex-grow"> {/* Allow main content to expand */}
+        {children}
+      </main>
+      <Footer />
+      <GoogleAnalytics />
     </body>
-    </html>
+  </html>
   );
 }

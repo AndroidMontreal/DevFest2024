@@ -8,7 +8,7 @@ const Navbar = ({ isMobile }) => {
 
 
   return (
-    <nav className={isMobile ? 'flex flex-col space-y-2 ' : 'hidden lg:flex space-x-2 items-center'}>
+    <nav className={isMobile ? 'flex flex-col space-y-2 ' : 'hidden md:flex space-x-2 items-center'}>
       {navigation.map((link) => (
         <Link
           key={link.href}
@@ -21,11 +21,10 @@ const Navbar = ({ isMobile }) => {
             hover:text-black
             hover:bg-gray-200
             ${!isMobile && 'rounded-full'}
-            ${
-            pathname === link.href
+            ${pathname === link.href
               ? 'bg-gray-300 text-gray-800' // Active link styles
               : ''
-          }
+            }
           `}
         >
           {link.label}

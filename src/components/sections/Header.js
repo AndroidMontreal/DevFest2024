@@ -28,13 +28,13 @@ const Header = () => {
         <div className="flex flex-row ">
           {/* Navigation (Desktop) on the right */}
           <Navbar isMobile={false} />
-          <PillButton className="ml-3 hidden lg:flex" href="https://devfestmontreal2024.eventbrite.ca"
-                      label="Get Tickets" />
+          <PillButton className="ml-3 hidden md:flex" href="https://devfestmontreal2024.eventbrite.ca"
+            label="Get Tickets" />
 
         </div>
         {/* Hamburger Menu (Mobile) */}
         <button
-          className="lg:hidden text-gray-800 hover:text-black focus:outline-none p-2 hover:bg-gray-200 rounded-full"
+          className="md:hidden text-gray-800 hover:text-black focus:outline-none p-2 hover:bg-gray-200 rounded-full"
           onClick={() => setIsMenuOpen(true)}
         >
           <Bars3Icon className="h-6 w-6" />
@@ -45,7 +45,7 @@ const Header = () => {
 
       {/*App Drawer overlay background*/}
       {isMenuOpen && <div
-        className="lg:hidden fixed inset-0 bg-black bg-opacity-40"
+        className="md:hidden fixed inset-0 bg-black bg-opacity-40"
         onClick={() => setIsMenuOpen(false)}
       >
 

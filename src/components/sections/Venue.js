@@ -24,7 +24,7 @@ const Venue = ({ venueData }) => {
         <div className="relative h-full"> {/* Adjust width as needed */}
           <div className="aspect-video h-full"> {/* Maintain aspect ratio for map embed */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22373.210209553163!2d-73.61781282568357!3d45.496966700000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a8dd7e037%3A0xf7e97c225e7151a2!2sConcordia%20University%20Multi%20Faith%20%26%20Spirituality%20Centre!5e0!3m2!1sen!2sca!4v1726211675398!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.728385132924!2d-73.58400550876223!3d45.49541409649223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6a52a5e115%3A0x7f6e51eeba31e9bc!2sConcordia%20University%2C%20John%20Molson%20Building!5e0!3m2!1sen!2sca!4v1726228096000!5m2!1sen!2sca"
               width="100%"
               height="100%"
               style={{ border: 0 }}
