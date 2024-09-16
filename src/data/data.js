@@ -186,5 +186,5 @@ export const team = [{
   name: 'Jhin Lee',
   title: 'Full-Stack Developer @Unity | GDE Flutter | GDG & Flutter Montreal Organizer',
   image: '/images/speakers/2023/jhin.jpg',
-  link: 'https://devfest2023.gdgmontreal.com/speaker/jhin-lee/',
+  link: 'https://g.dev/leehack',
 }];
