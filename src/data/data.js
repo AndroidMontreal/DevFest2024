@@ -68,7 +68,12 @@ export const sponsors = [{
   logo: '/images/partners/SECloudExperts.svg',
   company: 'SE Cloud Experts',
   website: 'https://se-cloud-experts.com/',
-}];
+}, {
+  level: 'silver',
+  logo: '/images/partners/transit.svg',
+  company: 'Transit',
+  website: 'https://manifesto.transitapp.com/fr/jobs',
+},];
 
 export const eventPhotos = [{
   title: 'DevFest 2023 was so much fun.',
@@ -187,4 +192,9 @@ export const team = [{
   title: 'Full-Stack Developer @Unity | GDE Flutter | GDG & Flutter Montreal Organizer',
   image: '/images/speakers/2023/jhin.jpg',
   link: 'https://g.dev/leehack',
+}, {
+  name: 'Laurence de Villers',
+  title: 'Android Developer at Transit | GDG Organizer | Women Techmakers Ambassador',
+  image: '/images/team/laurence.jpg',
+  link: 'https://www.linkedin.com/in/ldevillers/'
 }];

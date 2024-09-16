@@ -22,6 +22,14 @@ const Sponsors = () => {
 
       <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel('gold'))} />
 
+      <SponsorLevelTitle
+        title="Silver"
+        level="silver"
+        titleClassName="max-w-4xl" />
+
+      <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel('silver'))} />
+
+
       <PillButton
         href="https://docs.google.com/presentation/d/1ezmE9o9o-EXhEa_ofPospL9hFGxAYm8xtnV_0m3AqSo/edit?usp=sharing"
         label="Sponsorship Proposal" />
