@@ -73,7 +73,7 @@ export const sponsors = [{
   logo: '/images/partners/transit.svg',
   company: 'Transit',
   website: 'https://manifesto.transitapp.com/fr/jobs',
-},];
+}];
 
 export const eventPhotos = [{
   title: 'DevFest 2023 was so much fun.',
@@ -196,5 +196,40 @@ export const team = [{
   name: 'Laurence de Villers',
   title: 'Android Developer at Transit | GDG Organizer | Women Techmakers Ambassador',
   image: '/images/team/laurence.jpg',
-  link: 'https://www.linkedin.com/in/ldevillers/'
+  link: 'https://www.linkedin.com/in/ldevillers/',
+}, {
+  name: 'Mimoh Solanki',
+  title: 'Full Stack Developer | GDG Organizer',
+  image: '/images/team/mimoh.jpg',
+  link: 'https://www.linkedin.com/in/mimohsolanki/',
+}, {
+  name: 'Stacy Véronneau',
+  title: 'Director of Sales Engineering and Professional Services at SE Cloud Experts',
+  image: '/images/team/stacy.veronneau.png',
+  link: 'https://g.dev/sveronneau',
+}, {
+  name: 'Hanine Tydrini',
+  title: 'Software Engineering Student',
+  image: '/images/team/hanine.jpg',
+  link: 'https://www.linkedin.com/in/hanine-tydrini-154b1b24b/',
+}, {
+  name: 'Jihoo Park',
+  title: 'Senior Data Analyst @ Warner Bros. Games Montreal | WTM ambassador | Google BI customer Council Member',
+  image: '/images/team/jihoo_green.jpeg',
+  link: 'https://developers.google.com/profile/u/109280340170455499902',
+}, {
+  name: 'Nav Singh',
+  title: 'Sr. Android Engineer | GDE Android',
+  image: '/images/team/nav.png',
+  link: 'https://www.linkedin.com/in/navczydev/',
+}, {
+  name: 'Florian Ley',
+  title: 'Application manager',
+  image: '/images/team/florian.png',
+  link: 'https://www.linkedin.com/in/florian-ley/',
+}, {
+  name: 'Stefania Pecore\n',
+  title: 'Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador\n',
+  image: '/images/team/stefania.jpg',
+  link: 'https://developers.google.com/profile/u/specore',
 }];
