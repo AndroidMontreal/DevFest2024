@@ -204,7 +204,7 @@ export const team = [{
   link: 'https://www.linkedin.com/in/mimohsolanki/',
 }, {
   name: 'Stacy Véronneau',
-  title: 'Director of Sales Engineering and Professional Services at SE Cloud Experts',
+  title: 'Director of Sales Engineering and Cloud Solutions at SE Cloud Experts | GDG Cloud Montreal Organizer',
   image: '/images/team/stacy.veronneau.png',
   link: 'https://g.dev/sveronneau',
 }, {
