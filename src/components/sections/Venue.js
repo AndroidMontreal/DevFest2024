@@ -61,7 +61,6 @@ const Venue = ({ venueData }) => {
                   src={image}
                   alt={`Venue Image ${index + 1}`}
                   fill
-                  objectFit="cover"
                   className="rounded-lg "
                 />
               </SwiperSlide>

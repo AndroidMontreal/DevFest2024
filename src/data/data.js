@@ -75,7 +75,7 @@ export const sponsors = [{
   website: 'https://manifesto.transitapp.com/fr/jobs',
 }, {
   level: 'bronze',
-  logo: '/images/partners/flutter_engineering.png',
+  logo: '/images/partners/flutter_engineering.svg',
   company: 'Flutter Engineering',
   website: 'https://www.flutterengineering.io/',
 },
