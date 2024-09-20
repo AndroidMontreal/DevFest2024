@@ -1,11 +1,17 @@
 'use client';
-import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import SponsorLevelTitle from '@/components/elements/SponsorLevelTitle';
 import PillButton from '@/components/elements/PillButton';
-import { sponsors } from '@/data/data';
 import SponsorCard from '@/components/elements/SponsorCard';
+import SponsorLevelTitle from '@/components/elements/SponsorLevelTitle';
+import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
+import { sponsors } from '@/data/data';
 
 const Sponsors = () => {
+  const sponsorLevels = [
+    { title: 'Gold', level: 'gold' },
+    { title: 'Silver', level: 'silver' },
+    { title: 'Bronze', level: 'bronze' },
+  ];
+
   return (
     <div className="flex flex-col gap-6 text-center items-center justify-center my-10">
       <TitleWithSubtitle
@@ -14,33 +20,32 @@ const Sponsors = () => {
         titleClassName="max-w-4xl"
         subTitleClassName="max-w-xl" />
 
-
-      <SponsorLevelTitle
-        title="Gold"
-        level="gold"
-        titleClassName="max-w-4xl" />
-
-      <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel('gold'))} />
-
-      <SponsorLevelTitle
-        title="Silver"
-        level="silver"
-        titleClassName="max-w-4xl" />
-
-      <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel('silver'))} />
+      {sponsorLevels.map(({ title, level }) => (
+        <SponsorLevel key={level} title={title} level={level} sponsors={sponsors} />
+      ))}
 
 
       <PillButton
         href="https://docs.google.com/presentation/d/1ezmE9o9o-EXhEa_ofPospL9hFGxAYm8xtnV_0m3AqSo/edit?usp=sharing"
         label="Sponsorship Proposal" />
-
     </div>
 
   );
 };
 
+const SponsorLevel = ({ title, level, sponsors }) => (
+  <>
+    <SponsorLevelTitle
+      title={title}
+      level={level}
+      titleClassName="max-w-4xl"
+    />
+    <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel(level))} />
+  </>
+);
+
 function checkSponsorshipLevel(level) {
-  return function(partner) {
+  return function (partner) {
     return level === partner.level;
   };
 }

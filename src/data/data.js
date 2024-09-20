@@ -73,7 +73,13 @@ export const sponsors = [{
   logo: '/images/partners/transit.svg',
   company: 'Transit',
   website: 'https://manifesto.transitapp.com/fr/jobs',
-}];
+}, {
+  level: 'bronze',
+  logo: '/images/partners/flutter_engineering.png',
+  company: 'Flutter Engineering',
+  website: 'https://www.flutterengineering.io/',
+},
+];
 
 export const eventPhotos = [{
   title: 'DevFest 2023 was so much fun.',
