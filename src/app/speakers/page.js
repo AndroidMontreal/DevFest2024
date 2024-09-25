@@ -25,10 +25,11 @@ const Speakers = () => {
 
       <YearSelector years={[2023, 2024]} selectedYear={selectedYear} handleYearChange={handleYearChange} />
 
-      <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <ul
+        className={`grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 ${selectedYear === 2024 ? 'lg:grid-cols-3' : 'lg:grid-cols-4'}  gap-6 max-w-7xl mx-auto`}>
         {speakers.map(speaker => (
           <li key={speaker.name} className="flex items-start">
-            <SpeakerCard speaker={speaker} />
+            <SpeakerCard speaker={speaker} year={selectedYear} />
           </li>
         ))}
       </ul>

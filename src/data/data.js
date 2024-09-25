@@ -1,17 +1,10 @@
-export const navigation = [
-  {
-    href: '/',
-    label: 'Home',
-  },
-  {
-    href: '/speakers',
-    label: 'Speakers',
-  },
-  {
-    href: '/team',
-    label: 'Team',
-  },
-];
+export const navigation = [{
+  href: '/', label: 'Home',
+}, {
+  href: '/speakers', label: 'Speakers',
+}, {
+  href: '/team', label: 'Team',
+}];
 export const eventHeader = {
   'eventName': 'DevFest',
   'eventCity': 'Montreal 2024',
@@ -27,11 +20,7 @@ export const eventHeader = {
 export const venue = {
   'name': 'Concordia University Conference Centre', // Name of the venue
   'logo': '/images/logo/logo-concordia-university.png', // Path to the venue's logo (relative to the 'public' folder)
-  'images': [
-    '/images/venue/hall.jpeg',
-    '/images/venue/room.jpeg',
-    '/images/venue/workshop.jpeg',
-  ], // Array of image paths (relative to the 'public' folder)
+  'images': ['/images/venue/hall.jpeg', '/images/venue/room.jpeg', '/images/venue/workshop.jpeg'], // Array of image paths (relative to the 'public' folder)
 };
 export const communities = [{
   logo: '/images/communities/gdg_montreal.svg', company: 'GDG Montreal', website: 'https://gdgmontreal.com/',
@@ -78,8 +67,7 @@ export const sponsors = [{
   logo: '/images/partners/flutter_engineering.svg',
   company: 'Flutter Engineering',
   website: 'https://www.flutterengineering.io/',
-},
-];
+}];
 
 export const eventPhotos = [{
   title: 'DevFest 2023 was so much fun.',
@@ -104,7 +92,51 @@ export const eventPhotos = [{
   image: 'https://lh3.googleusercontent.com/pw/AP1GczNcaSw3Sh12JA8gYo0eTp6REZyoogQJPdhyIsbx3m3tb4MpG_jC-gG-r3h8YU65idL3U8qruJeuIw4cP-JVo41f8kLJYSTFncp8iAO_vbtnl7CX2MYzNzppvfedVXC5II8kNGfrNUV5XOHw8LATa7V4=w1401-h934-s-no-gm?authuser=0',
 }];
 
-export const speakers2024 = [];
+export const speakers2024 = [{
+  name: 'Kiruthika Subramani',
+  slug: 'kiruthika-subramani',
+  title: 'Google Developer Expert in ML and IBM Champion for Data and AI.',
+  headline: 'Advanced Pregnancy Risk Assessment Using AI Model Chain\n',
+  shortBio: 'Kiruthika Subramani - Master\'s student at Mila, Quebec AI Institute. Google Cloud Champion Innovator, Women Techmakers Ambassador, spotlighted as IBM\'s Today\'s Architect. Author of two books and a prolific speaker with 205+ talks, I aim to advance AI responsibly while inspiring the tech community.',
+  image: '/images/speakers/2024/kiruthika-subramani.jpeg',
+  social: {
+    linkedIn: 'https://www.linkedin.com/in/techwithkrithi/',
+    website: 'https://www.example.com/kiruthika',
+    email: 'kiruthikas2020ai@gmail.com',
+  },
+}, {
+  name: 'Stefania Pecore',
+  slug: 'stefania-pecore',
+  title: 'Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador',
+  headline: 'Build your own chatbot with Gemini',
+  shortBio: 'Stefania embarked on her journey with a university degree in foreign languages, recognizing the need for inclusive communication when language barriers existed. As the first to introduce an AI subject to her university in Italy focused on AI and automatic translation, her path unfolded. Subsequently, she pursued higher education, obtaining a master’s and Ph.D. in CS, programming, and NLP in France. With a passion for leveraging technology to enhance communication, she played a pivotal role in assisting numerous enterprises across diverse sectors—education, manufacturing, biotech, and even venturing into video games—by integrating NLP solutions into their products. Eager to share her insights, she became a mentor for women, holding positions as a Google Women Techmakers, Women in AI, and Women in Games Ambassador. In 2024, she became the lead of Google Women Techmakers Montréal. She was appointed as an AI Expert for UNESCO’s Women4Ethical AI allowing her to apply further her expertise in fostering responsible AI and supporting Ethical approaches in AI systems creation.\n',
+  image: '/images/speakers/2024/stefania.jpg',
+  social: {
+    email: 'pecstef@gmail.com',
+  },
+}, {
+  name: 'Stacy Véronneau',
+  slug: 'stacy-veronneau',
+  title: 'Director of Professional Services and Sales Engineering',
+  headline: 'AI and Security: A double-edged sword?',
+  shortBio: 'I am a passionate Cloud Evangelist and Technical Lead. I blend my strong business acumen with a deep knowledge of cloud technologies. My journey in tech is fueled by a love for learning and sharing knowledge, especially in cloud integration, security, AI, and operations. Whether you\'re a cloud newbie or a seasoned professional, I\'m here to engage in thoughtful discussions, collaborate on exciting projects, and share insights from my journey.',
+  image: '/images/speakers/2024/stacy_veronneau.png',
+  social: {
+    email: 'stacy.veronneau@gmail.com\n',
+    linkedIn: 'https://www.linkedin.com/in/stacyveronneau/',
+  },
+}, {
+  name: 'Yan Bellerose',
+  slug: 'yan-bellerose',
+  title: 'Cloud Customer Engineering Security & Compliance at Google',
+  headline: 'AI and Security: A double-edged sword?',
+  shortBio: 'As a technology enthusiast, I always develop new skills related to emerging technologies. As a technology architect, my approach is based on a balance between technical knowledge, business consideration, and innovation. Recognized as a professional in the field of cybersecurity, I had the opportunity to contribute to the gaming and entertainment industries of Montreal and work as a security freelancer before becoming a Googler.',
+  image: '/images/speakers/2024/yan.jpg',
+  social: {
+    email: 'stacy.veronneau@gmail.com\n',
+    linkedIn: 'https://www.linkedin.com/in/yanbellerose/',
+  },
+}];
 export const speakers2023 = [{
   name: 'Ali Yazdi',
   title: 'Senior Flutter Developer | GDG & Flutter Montreal Organizer',
