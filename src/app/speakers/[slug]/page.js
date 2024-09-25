@@ -15,7 +15,7 @@ const SpeakerDetails = ({ params }) => {
     throw new Error('Speaker not found'); // This will trigger the error.js component
   }
   return (
-    <div className="flex flex-col  max-w-7xl items-start mx-auto justify-center p-8 gap-8 my-24">
+    <div className="flex flex-col  max-w-7xl items-start mx-auto justify-center p-8 gap-8 my-10 md:my-24">
 
       <div className="w-full flex flex-col text-center justify-center gap-1">
         <h2
@@ -24,9 +24,9 @@ const SpeakerDetails = ({ params }) => {
 
       </div>
 
-      <div className="flex md:flex-row justify-center gap-8 w-full">
+      <div className="flex flex-col md:flex-row justify-center gap-8 w-full">
 
-        <div className="md:w-2/5 flex justify-end">
+        <div className="w-full md:w-2/5 flex justify-end">
 
           <Image
             src={speaker.image}
@@ -38,7 +38,7 @@ const SpeakerDetails = ({ params }) => {
 
         </div>
 
-        <div className="md:w-2/5 text-left">
+        <div className="w-full md:w-2/5 text-left">
 
           <h2
             className="text-[min(12vw,35px)] leading-[1.3] tracking-tighter font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mb-4">{speaker.headline}</h2>
