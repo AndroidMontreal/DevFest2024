@@ -1,12 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const SpeakerCard = ({ speaker }) => {
+const SpeakerCard = ({ speaker, year }) => {
+  const is2024Speaker = year === 2024;
+
   return (
     <Link
-      href={speaker.link}
-      target="_blank"
+      href={is2024Speaker ? `/speakers/${speaker.slug}` : speaker.link}
       rel="noopener noreferrer"
+      target={is2024Speaker ? '_self' : '_blank'} // Open 2023 links in new tab
+
       className="group flex hover:text-red-700">
 
       <div className="flex flex-col">

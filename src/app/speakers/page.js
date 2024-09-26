@@ -5,6 +5,7 @@ import PillButton from '@/components/elements/PillButton';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
 import { speakers2023, speakers2024 } from '@/data/data';
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const Speakers = () => {
   const [selectedYear, setSelectedYear] = useState(2024);
@@ -25,10 +26,11 @@ const Speakers = () => {
 
       <YearSelector years={[2023, 2024]} selectedYear={selectedYear} handleYearChange={handleYearChange} />
 
-      <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <ul
+        className={`grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 ${selectedYear === 2024 ? 'lg:grid-cols-3' : 'lg:grid-cols-4'}  gap-6 max-w-7xl mx-auto`}>
         {speakers.map(speaker => (
-          <li key={speaker.name} className="flex items-start">
-            <SpeakerCard speaker={speaker} />
+          <li key={uuidv4()} className="flex items-start">
+            <SpeakerCard speaker={speaker} year={selectedYear} />
           </li>
         ))}
       </ul>
