@@ -40,9 +40,10 @@ const SpeakerDetails = ({ params }) => {
 
         <div className="w-full md:w-2/5 text-left">
 
-          <h2
-            className="text-[min(12vw,35px)] leading-[1.3] tracking-tighter font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mb-4">{speaker.headline}</h2>
-          {/*<p className="text-gray-600 mb-4">{speaker.headline}</p>*/}
+          {/* Removed till added session completely */}
+          {/*<h2*/}
+          {/*  className="text-[min(12vw,35px)] leading-[1.3] tracking-tighter font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mb-4">{speaker.headline}</h2>*/}
+
 
           <p className="mb-4">{speaker.shortBio}</p>
 
