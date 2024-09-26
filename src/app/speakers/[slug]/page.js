@@ -24,9 +24,9 @@ const SpeakerDetails = ({ params }) => {
 
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-8 w-full">
+      <div className="flex flex-col lg:flex-row justify-center gap-8 w-full">
 
-        <div className="w-full md:w-2/5 flex justify-end">
+        <div className="w-full lg:w-2/5 flex justify-end">
 
           <Image
             src={speaker.image}
@@ -38,7 +38,7 @@ const SpeakerDetails = ({ params }) => {
 
         </div>
 
-        <div className="w-full md:w-2/5 text-left">
+        <div className="w-full lg:w-2/5 text-left">
 
           {/* Removed till added session completely */}
           {/*<h2*/}
@@ -66,6 +66,7 @@ const SpeakerDetails = ({ params }) => {
           </div>
 
         </div>
+
       </div>
     </div>
 
