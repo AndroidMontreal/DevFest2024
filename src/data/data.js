@@ -215,6 +215,7 @@ export const speakers2023 = [{
   link: 'https://devfest2023.gdgmontreal.com/speaker/stefania-pecore/',
 }];
 
+// session data
 export const sessions2024 = [
   {
     title: 'Advanced Pregnancy Risk Assessment Using AI Model Chain',
