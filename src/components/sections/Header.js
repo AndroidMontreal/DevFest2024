@@ -12,7 +12,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-4 z-50 mt-4 px-3">
+    <header className="sticky top-0 z-50 mt-0 px-3">
+     <div className="bg-white container mx-auto flex items-center justify-between pt-5">
       <div className="bg-gray-100 container mx-auto flex items-center justify-between p-5 rounded-2xl">
 
         {/* Logo and other elements on the left */}
@@ -53,7 +54,7 @@ const Header = () => {
 
       {/* App Drawer (Mobile) */}
       <MobileDrawer isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
-
+      </div>
     </header>
   );
 };
