@@ -145,12 +145,12 @@ export const speakers2024 = [{
 
 export const speakers2023 = [{
   name: 'Ali Yazdi',
-  title: 'Senior Flutter Developer | GDG & Flutter Montreal Organizer',
+  title: 'Senior Software Engineer at EXFO, GDG & Flutter Montreal Organizer',
   image: '/images/speakers/2023/ali.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/ali-yazdi/',
 }, {
   name: 'Billy Taing',
-  title: 'Software Engineering at IAIAO & Flutter Montréal Meetup Organizer',
+  title: 'Software Engineer @IAIAO',
   image: '/images/speakers/2023/billy.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/billy-taing/',
 }, {
@@ -204,6 +204,11 @@ export const speakers2023 = [{
   image: '/images/speakers/2023/kevin.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/kevin-blanco/',
 }, {
+  name: 'Lenz Paul',
+  title: 'Software Engineer at CMiC | GDG & Flutter Montreal',
+  image: '/images/speakers/2023/lenz.jpg',
+  link: 'https://devfest2023.gdgmontreal.com/speaker/lenz-paul/',
+}, {
   name: 'Nav Singh',
   title: 'Google Developer Expert for Android, Organizer at GDG-Montreal, and write articles about Android and Kotlin',
   image: '/images/speakers/2023/nav.jpg',
@@ -239,8 +244,8 @@ export const team = [{
   link: 'https://devfest2023.gdgmontreal.com/speaker/ali-yazdi/',
 }, {
   name: 'Billy Taing',
-  title: 'Software Engineering at IAIAO & Flutter Montréal Meetup Organizer',
-  image: '/images/team/billy.jpg',
+  title: 'Software Engineer @IAIAO',
+  image: '/images/speakers/2023/billy.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/billy-taing/',
 }, {
   name: 'Jhin Lee',
@@ -272,6 +277,11 @@ export const team = [{
   title: 'Senior Data Analyst @ Warner Bros. Games Montreal | WTM ambassador | Google BI customer Council Member',
   image: '/images/team/jihoo_green.jpeg',
   link: 'https://developers.google.com/profile/u/109280340170455499902',
+}, {
+  name: 'Lenz Paul',
+  title: 'Software Engineer at CMiC | GDG & Flutter Montreal',
+  image: '/images/speakers/2023/lenz.jpg',
+  link: 'https://devfest2023.gdgmontreal.com/speaker/lenz-paul/',
 }, {
   name: 'Nav Singh',
   title: 'Sr. Android Engineer | GDE Android',
