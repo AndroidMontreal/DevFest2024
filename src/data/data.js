@@ -239,7 +239,7 @@ export const sessions2024 = [
 
 export const team = [{
   name: 'Ali Yazdi',
-  title: 'Senior Flutter Developer | GDG & Flutter Montreal Organizer',
+  title: 'Senior Software Engineer at EXFO, GDG & Flutter Montreal Organizer',
   image: '/images/team/ali.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/ali-yazdi/',
 }, {
@@ -280,7 +280,7 @@ export const team = [{
 }, {
   name: 'Lenz Paul',
   title: 'Software Engineer at CMiC | GDG & Flutter Montreal',
-  image: '/images/speakers/2023/lenz.jpg',
+  image: '/images/team/lenz.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/lenz-paul/',
 }, {
   name: 'Nav Singh',
