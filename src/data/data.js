@@ -58,6 +58,11 @@ export const sponsors = [{
   company: 'SE Cloud Experts',
   website: 'https://se-cloud-experts.com/',
 }, {
+  level: 'gold',
+  logo: '/images/partners/MoovAi.svg',
+  company: 'Moov AI',
+  website: 'https://moov.ai/en',
+},{
   level: 'silver',
   logo: '/images/partners/transit.svg',
   company: 'Transit',
