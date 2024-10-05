@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import Image from 'next/image';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
+import { v4 as uuidv4 } from 'uuid';
 
 const Venue = ({ venueData }) => {
   return (
@@ -56,7 +57,7 @@ const Venue = ({ venueData }) => {
             className="h-full"
           >
             {venueData.images.map((image, index) => (
-              <SwiperSlide key={index} className="w-full h-[400px] lg:h-full">
+              <SwiperSlide key={uuidv4()} className="w-full h-[400px] lg:h-full">
                 <Image
                   src={image}
                   alt={`Venue Image ${index + 1}`}

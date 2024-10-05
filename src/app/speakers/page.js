@@ -3,9 +3,10 @@ import SpeakerCard from '@/components/elements/SpeakerCard';
 import YearSelector from '@/components/elements/YearSelector';
 import PillButton from '@/components/elements/PillButton';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import { speakers2023, speakers2024 } from '@/data/data';
+import { speakers2023 } from '@/data/speakers2023Data';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import { speakers2024 } from '@/data/speakers2024Data';
 
 const Speakers = () => {
   const [selectedYear, setSelectedYear] = useState(2024);

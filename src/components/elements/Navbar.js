@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { navigation } from '@/data/data';
+import { navigationData } from '@/data/navigationData';
+import { v4 as uuidv4 } from 'uuid';
 
 const Navbar = ({ isMobile }) => {
   const router = useRouter();
@@ -9,9 +10,9 @@ const Navbar = ({ isMobile }) => {
 
   return (
     <nav className={isMobile ? 'flex flex-col space-y-2 ' : 'hidden md:flex space-x-2 items-center'}>
-      {navigation.map((link) => (
+      {navigationData.map((link) => (
         <Link
-          key={link.href}
+          key={uuidv4()}
           href={link.href}
           className={`
             text-gray-800 
@@ -22,9 +23,9 @@ const Navbar = ({ isMobile }) => {
             hover:bg-gray-200
             ${!isMobile && 'rounded-full'}
             ${pathname === link.href
-              ? 'bg-gray-300 text-gray-800' // Active link styles
-              : ''
-            }
+            ? 'bg-gray-300 text-gray-800' // Active link styles
+            : ''
+          }
           `}
         >
           {link.label}

@@ -1,7 +1,7 @@
 'use client';
 import CommunityCard from '@/components/elements/CommunityCard';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import { communities } from '@/data/data';
+import { communities } from '@/data/communitiesData';
 
 const Communities = () => {
   return (

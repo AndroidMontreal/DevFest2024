@@ -1,4 +1,4 @@
-import { speakers2024 } from '@/data/data';
+import { speakers2024 } from '@/data/speakers2024Data';
 import Image from 'next/image';
 import { FaLinkedinIn, FaRegEnvelope } from 'react-icons/fa';
 import { CiGlobe, CiLinkedin } from 'react-icons/ci';

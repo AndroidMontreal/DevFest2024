@@ -1,6 +1,6 @@
 'use client';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import { eventPhotos } from '@/data/data';
+import { eventPhotos } from '@/data/eventPhotosData';
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 import PillButton from '@/components/elements/PillButton';

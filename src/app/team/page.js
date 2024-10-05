@@ -1,7 +1,8 @@
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
-import { team } from '@/data/data';
+import { team } from '@/data/teamData';
 import TeamMemberCard from '@/components/elements/TeamMemberCard';
 import { sortTeamByFirstName } from '@/lib/utils';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Home() {
 
@@ -17,7 +18,7 @@ export default function Home() {
 
       <ul className=" py-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
         {sortedTeam.map(member => (
-          <li key={member.name} className="flex items-start">
+          <li key={uuidv4()} className="flex items-start">
             <TeamMemberCard member={member} />
           </li>
         ))}
