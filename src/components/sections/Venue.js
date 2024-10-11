@@ -32,6 +32,7 @@ const Venue = ({ venueData }) => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="Event Venue"
             ></iframe>
           </div>
           <div className="absolute bottom-2 left-2 bg-white p-2 rounded-md shadow-md"> {/* Logo overlay */}

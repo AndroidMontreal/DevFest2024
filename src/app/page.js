@@ -21,7 +21,9 @@ export default function Home() {
       <section id="communities" className="scroll-mt-20">
         <Communities />
       </section>
-      <Venue venueData={venue} />
+      <section id="venue" className="scroll-mt-20">
+        <Venue venueData={venue} />
+      </section>
     </div>
   );
 }

@@ -35,4 +35,14 @@ export const sponsors = [{
   logo: '/images/partners/flutter_engineering.svg',
   company: 'Flutter Engineering',
   website: 'https://www.flutterengineering.io/',
+}, {
+  level: 'bronze',
+  logo: '/images/partners/jetbrains.svg',
+  company: 'Jetbrains',
+  website: 'https://www.jetbrains.com/',
+}, {
+  level: 'bronze',
+  logo: '/images/partners/kodeco.svg',
+  company: 'kodeco',
+  website: 'https://www.kodeco.com/',
 }];

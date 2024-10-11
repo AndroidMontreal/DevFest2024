@@ -5,37 +5,54 @@ import PillButton from '@/components/elements/PillButton';
 import Link from 'next/link';
 
 const EventHeader = ({
-  eventData,
-}) => {
+                       eventData,
+                     }) => {
   return (
-    <div className="relative">
-      <h1 className="text-6xl font-semibold tracking-tighter text-gray-800 py-12 text-center">
+    <div className="flex flex-col">
+
+      <h1
+        className="text-[min(12vw,60px)] leading-[1.3] tracking-tighter font-bold pt-14 pb-8 text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 md:text-center">
         {eventData.eventName} {eventData.eventCity} {eventData.year}
       </h1>
-      <div className="container mx-auto flex flex-col items-center md:flex-row justify-around">
-        <div className="mb-6 md:mb-0 text-left md:text-left">
-          <p className="text-gray-600 max-w-xl">{eventData.description}</p>
-          <div className="flex text-black font-medium lg:items-center my-5 justify-start lg:justify-start">
-            <CalendarDaysIcon className="h-5 w-5 text-gray-500 mr-2" />
-            <p className="text-gray-700">{eventData.date}</p>
-            <MapPinIcon className="h-6 w-6 text-gray-500 mr-2 ml-4" />
-            <p className="text-gray-700 underline">
-              <Link
-                href="#venue">
-                {eventData.location}
-              </Link>
-            </p>
-          </div>
-          <PillButton className="my-6 flex" href={eventData.buttonLink} label={eventData.buttonText} />
-        </div>
-        <div className="p-5">
+
+      <div className="container mx-auto flex flex-col items-center md:flex-row justify-evenly">
+        <div className="p-3">
           <Image
+            className="rounded-xl shadow-xl "
             src={eventData.imageUrl}
             alt={`${eventData.eventName} Banner`}
             width={600}
             height={0}
           />
         </div>
+        <div className="mb-6 md:mb-0 text-left md:text-left">
+
+          <p className="text-gray-600 max-w-xl">{eventData.description}</p>
+
+          <div
+            className="flex flex-col xl:flex-row text-black font-medium my-5 gap-3">
+
+            <div className="flex">
+              <CalendarDaysIcon className="h-6 w-6 text-gray-500 mr-2" />
+              <p className="text-gray-700">{eventData.date}</p>
+            </div>
+
+            <div className="flex">
+              <MapPinIcon className="h-6 w-6 text-gray-500 mr-2" />
+              <p className="text-gray-700 underline">
+                <Link
+                  href="#venue">
+                  {eventData.location}
+                </Link>
+              </p>
+            </div>
+
+          </div>
+
+          <PillButton className="my-6 flex" href={eventData.buttonLink} label={eventData.buttonText} />
+
+        </div>
+
       </div>
     </div>
   );

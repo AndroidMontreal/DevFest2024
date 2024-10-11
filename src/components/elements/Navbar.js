@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { navigationData } from '@/data/navigationData';
+import { headerNavData } from '@/data/headerNavData';
 import { v4 as uuidv4 } from 'uuid';
 
 const Navbar = ({ isMobile }) => {
@@ -10,7 +10,7 @@ const Navbar = ({ isMobile }) => {
 
   return (
     <nav className={isMobile ? 'flex flex-col space-y-2 ' : 'hidden md:flex space-x-2 items-center'}>
-      {navigationData.map((link) => (
+      {headerNavData.map((link) => (
         <Link
           key={uuidv4()}
           href={link.href}

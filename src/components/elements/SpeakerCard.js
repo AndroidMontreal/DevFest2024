@@ -20,7 +20,7 @@ const SpeakerCard = ({ speaker, year }) => {
             alt={`${speaker.name}'s avatar`}
             height={400}
             width={400}
-            className="rounded-2xl aspect-square object-cover shadow-lg group-hover:shadow-xl group-hover:scale-105 transition"
+            className="rounded-2xl aspect-square object-cover w-fit shadow-lg group-hover:shadow-xl group-hover:scale-105 transition"
           />
         </div>
 

@@ -13,47 +13,47 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 mt-0 px-3">
-     <div className="bg-white container mx-auto flex items-center justify-between pt-5">
-      <div className="bg-gray-100 container mx-auto flex items-center justify-between p-5 rounded-2xl">
+      <div className="bg-white container mx-auto flex items-center justify-between pt-5">
+        <div className="bg-gray-100 container mx-auto flex items-center justify-between p-5 rounded-2xl">
 
-        {/* Logo and other elements on the left */}
-        <Link href="/">
-          <Image
-            src={logo}
-            width={250}
-            alt="Montreal Google Developer Group"
-            priority={true}
-          />
-        </Link>
+          {/* Logo and other elements on the left */}
+          <Link href="/">
+            <Image
+              src={logo}
+              width={250}
+              alt="Montreal Google Developer Group"
+              priority={true}
+            />
+          </Link>
 
-        <div className="flex flex-row ">
-          {/* Navigation (Desktop) on the right */}
-          <Navbar isMobile={false} />
-          <PillButton className="ml-3 hidden md:flex" href="https://devfestmontreal2024.eventbrite.ca"
-            label="Get Tickets" />
+          <div className="flex flex-row ">
+            {/* Navigation (Desktop) on the right */}
+            <Navbar isMobile={false} />
+            <PillButton className="ml-3 hidden md:flex" href="https://devfestmontreal2024.eventbrite.ca"
+                        label="Get Tickets" />
+
+          </div>
+          {/* Hamburger Menu (Mobile) */}
+          <button
+            className="md:hidden text-gray-800 hover:text-black focus:outline-none p-2 hover:bg-gray-200 rounded-full"
+            onClick={() => setIsMenuOpen(true)} role="button" aria-label="menu" aria-pressed="false"
+          >
+            <Bars3Icon className="h-6 w-6" />
+          </button>
 
         </div>
-        {/* Hamburger Menu (Mobile) */}
-        <button
-          className="md:hidden text-gray-800 hover:text-black focus:outline-none p-2 hover:bg-gray-200 rounded-full"
-          onClick={() => setIsMenuOpen(true)}
+
+
+        {/*App Drawer overlay background*/}
+        {isMenuOpen && <div
+          className="md:hidden fixed inset-0 bg-black bg-opacity-40"
+          onClick={() => setIsMenuOpen(false)}
         >
-          <Bars3Icon className="h-6 w-6" />
-        </button>
 
-      </div>
+        </div>}
 
-
-      {/*App Drawer overlay background*/}
-      {isMenuOpen && <div
-        className="md:hidden fixed inset-0 bg-black bg-opacity-40"
-        onClick={() => setIsMenuOpen(false)}
-      >
-
-      </div>}
-
-      {/* App Drawer (Mobile) */}
-      <MobileDrawer isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+        {/* App Drawer (Mobile) */}
+        <MobileDrawer isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
       </div>
     </header>
   );

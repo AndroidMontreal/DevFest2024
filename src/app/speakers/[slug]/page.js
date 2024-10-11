@@ -1,9 +1,8 @@
 import { speakers2024 } from '@/data/speakers2024Data';
 import Image from 'next/image';
-import { FaLinkedinIn, FaRegEnvelope } from 'react-icons/fa';
-import { CiGlobe, CiLinkedin } from 'react-icons/ci';
-import { IoLogoLinkedin } from 'react-icons/io5';
-import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
+import { FaRegEnvelope } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa6';
+import { CiGlobe } from 'react-icons/ci';
 
 
 const SpeakerDetails = ({ params }) => {
@@ -50,17 +49,17 @@ const SpeakerDetails = ({ params }) => {
           <div className="flex space-x-2 mt-2">
             {speaker.social?.website && (
               <a href={speaker.social.website} target="_blank" rel="noopener noreferrer">
-                <CiGlobe className="h-8 w-8 p-2 text-white bg-black rounded hover:" />
+                <CiGlobe className="h-8 w-8 p-2 text-white bg-gray-900 bg-opacity-90 rounded hover:" />
               </a>
             )}
             {speaker.social?.email && (
               <a href={`mailto:${speaker.social.email}`}>
-                <FaRegEnvelope className="h-8 w-8 p-2 text-white bg-black rounded" />
+                <FaRegEnvelope className="h-8 w-8 p-2 text-white bg-gray-900 bg-opacity-90 rounded" />
               </a>
             )}
             {speaker.social?.linkedIn && (
               <a href={speaker.social.linkedIn} target="_blank" rel="noopener noreferrer">
-                <IoLogoLinkedin className="h-8 w-8 p-2 text-white bg-black rounded" />
+                <FaLinkedinIn className="h-8 w-8 p-2 text-white bg-gray-900 bg-opacity-90 rounded" />
               </a>
             )}
           </div>

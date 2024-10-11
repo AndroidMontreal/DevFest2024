@@ -5,7 +5,7 @@ export const eventHeader = {
   'date': 'November 9th, 2024',
   'location': 'Concordia University Conference Center',
   'locationLink': '',
-  'imageUrl': '/images/logo/eventHeader.svg',
+  'imageUrl': '/images/logo/eventHeader.gif',
   'buttonText': 'Get Tickets',
   'buttonLink': 'https://devfestmontreal2024.eventbrite.ca',
 };
