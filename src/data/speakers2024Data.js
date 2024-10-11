@@ -10,16 +10,20 @@ export const speakers2024 = [{
     website: 'https://www.example.com/kiruthika',
     email: 'kiruthikas2020ai@gmail.com',
   },
+  sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cb',
+
 }, {
   name: 'Stefania Pecore',
   uuid: '08c71152-c552-42e7-b094-f510ff44e9cb',
   slug: 'stefania-pecore',
   title: 'Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador',
-  shortBio: 'Stefania embarked on her journey with a university degree in foreign languages, recognizing the need for inclusive communication when language barriers existed. As the first to introduce an AI subject to her university in Italy focused on AI and automatic translation, her path unfolded. Subsequently, she pursued higher education, obtaining a master’s and Ph.D. in CS, programming, and NLP in France. With a passion for leveraging technology to enhance communication, she played a pivotal role in assisting numerous enterprises across diverse sectors—education, manufacturing, biotech, and even venturing into video games—by integrating NLP solutions into their products. Eager to share her insights, she became a mentor for women, holding positions as a Google Women Techmakers, Women in AI, and Women in Games Ambassador. In 2024, she became the lead of Google Women Techmakers Montréal. She was appointed as an AI Expert for UNESCO’s Women4Ethical AI allowing her to apply further her expertise in fostering responsible AI and supporting Ethical approaches in AI systems creation.\n',
+  shortBio: `Stefania embarked on her journey with a university degree in foreign languages, recognizing the need for inclusive communication when language barriers existed. As the first to introduce an AI subject to her university in Italy focused on AI and automatic translation, her path unfolded. Subsequently, she pursued higher education, obtaining a master’s and Ph.D. in CS, programming, and NLP in France.
+  With a passion for leveraging technology to enhance communication, she played a pivotal role in assisting numerous enterprises across diverse sectors—education, manufacturing, biotech, and even venturing into video games—by integrating NLP solutions into their products. Eager to share her insights, she became a mentor for women, holding positions as a Google Women Techmakers, Women in AI, and Women in Games Ambassador. In 2024, she became the lead of Google Women Techmakers Montréal. She was appointed as an AI Expert for UNESCO’s Women4Ethical AI allowing her to apply further her expertise in fostering responsible AI and supporting Ethical approaches in AI systems creation.`,
   image: '/images/speakers/2024/stefania.jpg',
   social: {
     email: 'pecstef@gmail.com',
   },
+  sessionUUID: '789c0123-d456-f789-0123-456789abcdef',
 }, {
   name: 'Stacy Véronneau',
   uuid: 'c558a80a-f319-4c10-95d4-4282ef745b4b',
@@ -31,6 +35,8 @@ export const speakers2024 = [{
     email: 'stacy.veronneau@gmail.com\n',
     linkedIn: 'https://www.linkedin.com/in/stacyveronneau/',
   },
+  sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
+
 }, {
   name: 'Yan Bellerose',
   slug: 'yan-bellerose',
@@ -42,4 +48,6 @@ export const speakers2024 = [{
     email: 'stacy.veronneau@gmail.com\n',
     linkedIn: 'https://www.linkedin.com/in/yanbellerose/',
   },
+  sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
+
 }];

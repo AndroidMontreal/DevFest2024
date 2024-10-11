@@ -15,8 +15,8 @@ const EventHeader = ({
         {eventData.eventName} {eventData.eventCity} {eventData.year}
       </h1>
 
-      <div className="container mx-auto flex flex-col items-center md:flex-row justify-evenly">
-        <div className="p-3">
+      <div className="container mx-auto flex flex-col items-start xl:items-center lg:flex-row justify-evenly gap-9">
+        <div>
           <Image
             className="rounded-xl shadow-xl "
             src={eventData.imageUrl}
