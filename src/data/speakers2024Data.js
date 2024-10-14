@@ -2,7 +2,7 @@ export const speakers2024 = [{
   name: 'Kiruthika Subramani',
   uuid: '123e4567-e89b-12d3-a456-426614174000',
   slug: 'kiruthika-subramani',
-  title: 'Google Developer Expert in ML and IBM Champion for Data and AI.',
+  title: 'Google Developer Expert in ML and IBM Champion for Data and AI',
   shortBio: 'Kiruthika Subramani - Master\'s student at Mila, Quebec AI Institute. Google Cloud Champion Innovator, Women Techmakers Ambassador, spotlighted as IBM\'s Today\'s Architect. Author of two books and a prolific speaker with 205+ talks, I aim to advance AI responsibly while inspiring the tech community.',
   image: '/images/speakers/2024/kiruthika-subramani.jpeg',
   social: {

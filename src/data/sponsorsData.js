@@ -45,4 +45,9 @@ export const sponsors = [{
   logo: '/images/partners/kodeco.svg',
   company: 'kodeco',
   website: 'https://www.kodeco.com/',
+}, {
+  level: 'bronze',
+  logo: '/images/partners/packt.svg',
+  company: 'Packt',
+  website: 'https://www.packtpub.com/en-ca',
 }];
