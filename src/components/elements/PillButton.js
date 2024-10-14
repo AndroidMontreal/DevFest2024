@@ -23,7 +23,7 @@ const Button = ({
       onClick={onClick}
       aria-label={aria_label}
       className={clsx(
-        'px-6 py-2.5 text-base font-medium shadow-sm w-fit rounded-full',
+        'px-6 py-2.5 text-base font-medium shadow-md w-fit rounded-full',
         action === 'primary' &&
         'bg-black text-white hover:bg-black/80 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-black',
         action === 'secondary' &&

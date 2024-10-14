@@ -14,13 +14,14 @@ const SpeakerCard = ({ speaker, year }) => {
 
       <div className="flex flex-col">
 
-        <div className="relative aspect-square overflow-hidden rounded-2xl"> {/* Fixed aspect ratio container */}
+        <div
+          className="relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition"> {/* Fixed aspect ratio container */}
           <Image
             src={speaker.image}
             alt={`${speaker.name}'s avatar`}
             height={400}
             width={400}
-            className="rounded-2xl aspect-square object-cover w-fit shadow-lg group-hover:shadow-xl group-hover:scale-105 transition"
+            className="rounded-2xl aspect-square object-cover w-fit group-hover:scale-105 transition"
           />
         </div>
 
