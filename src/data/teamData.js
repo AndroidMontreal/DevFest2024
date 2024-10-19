@@ -50,7 +50,7 @@ export const team = [{
   link: 'https://www.linkedin.com/in/navczydev/',
 }, {
   name: 'Florian Ley',
-  title: 'Application manager',
+  title: 'Application manager at Davidson Canada | GDG Cloud Montreal Organizer',
   image: '/images/team/florian.png',
   link: 'https://www.linkedin.com/in/florian-ley/',
 }, {
@@ -63,4 +63,14 @@ export const team = [{
   title: 'Data Scientist | Women Techmakers Ambassador',
   image: '/images/team/naya.jpg',
   link: 'https://www.linkedin.com/in/nayavasques/',
+}, {
+  name: 'Adam Simard',
+  title: 'Software Engineering Student',
+  image: '/images/team/adam.webp',
+  link: 'https://www.linkedin.com/in/adamsimard',
+}, {
+  name: 'Samuel Dionne',
+  title: 'Android Developer at Transit | GDG Organizer',
+  image: '/images/team/sam.jpg',
+  link: 'https://www.linkedin.com/in/samueldionne',
 }];
