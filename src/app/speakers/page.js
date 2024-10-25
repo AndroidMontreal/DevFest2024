@@ -37,7 +37,7 @@ const Speakers = () => {
           </li>
         ))}
       </ul>
-      <PillButton href="https://www.papercall.io/devfest-2024-mtl" label="Submit your proposal" />
+      {/* <PillButton href="https://www.papercall.io/devfest-2024-mtl" label="Submit your proposal" /> */}
     </div>
   );
 };
