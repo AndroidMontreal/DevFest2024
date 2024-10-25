@@ -3,8 +3,8 @@ export const speakers2024 = [
     name: 'David Cardozo',
     uuid: '123e4567-e89b-12d3-a456-42661417400c',
     slug: 'david-cardozo',
-    title: 'Chief Lead Analyst, Senior Machine Learning Scientist @ Updata.ca | Google Developer Expert AI/Machine Learning JAX / Flax | Docker Captain | Engineering Management',
-    shortBio: `I am a Machine Learning Scientist and technologist, with a primary focus on utilizing cutting-edge technologies like Jax/Flax, Docker, Kubeflow, and TensorFlow create impactful products that address complex challenges. I am a seasoned infrastructure architect and cloud forensics technician with expertise in GCP (Google Cloud Platform) and Azure. I specialize in deploying MLOps (Machine Learning Operations) solutions using Kubeflow. I am a software developer with a diverse background in software exploitation, math, information security, open-source development, and DevOps practices. I have extensive experience in these areas, and I am particularly passionate about community engagement and leadership in ML communities both in Canada and Colombia. Additionally, I am a Google Developer Expert, Docker Captain, and Kubeflow Community member. Currently I am working as Chief Lead Analyst for Updata in Canada. I speak English, French & Spanish`,
+    title: 'GDE Expert in Jax/Flax | Docker Captain',
+    shortBio: `I am a Machine Learning Scientist and technologist, with a primary focus on utilizing cutting-edge technologies like Jax/Flax, Docker, Kubeflow, and TensorFlow to create impactful products that address complex challenges.`,
     image: '/images/speakers/2024/david.jpeg',
     social: {
       linkedIn: 'https://www.linkedin.com/in/davidcardozo/',
