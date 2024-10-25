@@ -4,7 +4,7 @@ import YearSelector from '@/components/elements/YearSelector';
 import PillButton from '@/components/elements/PillButton';
 import TitleWithSubtitle from '@/components/elements/TitleWithSubtitle';
 import { speakers2023 } from '@/data/speakers2023Data';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { speakers2024 } from '@/data/speakers2024Data';
 
@@ -15,7 +15,9 @@ const Speakers = () => {
     setSelectedYear(year);
   };
 
-  const speakers = selectedYear === 2023 ? speakers2023 : speakers2024;
+  const speakers = useMemo(() => {
+    return (selectedYear === 2023 ? speakers2023 : speakers2024).sort((a, b) => a.name.localeCompare(b.name));
+  }, [selectedYear]);
 
   return (
     <div id="speakers" className="flex flex-col gap-6 text-center items-center justify-center my-24">

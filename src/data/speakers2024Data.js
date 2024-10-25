@@ -1,53 +1,129 @@
-export const speakers2024 = [{
-  name: 'Kiruthika Subramani',
-  uuid: '123e4567-e89b-12d3-a456-426614174000',
-  slug: 'kiruthika-subramani',
-  title: 'Google Developer Expert in ML and IBM Champion for Data and AI',
-  shortBio: 'Kiruthika Subramani - Master\'s student at Mila, Quebec AI Institute. Google Cloud Champion Innovator, Women Techmakers Ambassador, spotlighted as IBM\'s Today\'s Architect. Author of two books and a prolific speaker with 205+ talks, I aim to advance AI responsibly while inspiring the tech community.',
-  image: '/images/speakers/2024/kiruthika-subramani.jpeg',
-  social: {
-    linkedIn: 'https://www.linkedin.com/in/techwithkrithi/',
-    website: 'https://www.example.com/kiruthika',
-    email: 'kiruthikas2020ai@gmail.com',
-  },
-  sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cb',
+export const speakers2024 = [
+  {
+    name: 'Etienne Caron',
+    uuid: '123e4567-e89b-12d3-a456-426614174005',
+    slug: 'etienne-caron',
+    title: 'Tech Founder, Kanastruk Inc. | Google Developer Expert Android',
+    shortBio: `Etienne started his career as a back-end developer and pivoted to mobile development in the early 2010s. He worked on all tiers (server, web, mobile, and embedded) of large-scale software platforms and is currently a freelance software development consultant.
 
-}, {
-  name: 'Stefania Pecore',
-  uuid: '08c71152-c552-42e7-b094-f510ff44e9cb',
-  slug: 'stefania-pecore',
-  title: 'Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador',
-  shortBio: `Stefania embarked on her journey with a university degree in foreign languages, recognizing the need for inclusive communication when language barriers existed. As the first to introduce an AI subject to her university in Italy focused on AI and automatic translation, her path unfolded. Subsequently, she pursued higher education, obtaining a master’s and Ph.D. in CS, programming, and NLP in France.
+
+      - Developer on the Nina™ Mobile speech recognition SDK for Nuance Communications
+- Android team lead on TrueKey™ password management app for Intel / McAfee.
+- Senior Android developer on Hatchful™ Logo Maker, Shopify.
+- Staff developer for e - commerce store management application, Shopify.
+
+
+Since pivoting to mobile development, Etienne has been an active community member and regularly devotes his time to mentoring startups, developers and students in the space.He lives in Montreal with his wife and daughter and speaks French and English fluently.
+`,
+    image: '/images/speakers/2024/etienne.jpg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/etcaron',
+      email: 'etienne.caron@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d0',
+  },
+  {
+    name: 'JL Marechaux',
+    uuid: '123e4567-e89b-12d3-a456-426614174004',
+    slug: 'jl-marechaux',
+    title: 'Solutions & Thought Leadership at Google',
+    shortBio: 'JL Marechaux  is a member of the "Solutions & Thought Leadership" team at Google, advising North American companies on AI adoption. His background in AI and cloud computing includes technical and leadership positions at IBM and BlueYonder. JL has also been a course lecturer at McGill University.',
+    image: '/images/speakers/2024/jl.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/jlmarechaux/',
+      email: 'jlmarechaux@google.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cf',
+  },
+  {
+    name: 'Medha Muppala',
+    uuid: '123e4567-e89b-12d3-a456-426614174003',
+    slug: 'medha-muppala',
+    title: 'Product Desiger at Jameo & Google WTM Ambassador',
+    shortBio: 'Medha is a product designer, speaker, writer, and mentor with a background in computer science. On the professional front, she crafts delightful digital experiences and conducts usability audits & research. In her spare time, she helps early designers get started and thrive in their design careers.',
+    image: '/images/speakers/2024/medha.jpg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/medhamuppala/',
+      email: 'medhamuppala@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9ce',
+  },
+  {
+    name: 'Shannon Lal',
+    uuid: '123e4567-e89b-12d3-a456-426614174002',
+    slug: 'shannon-lal',
+    title: 'CTO at Designstripe',
+    shortBio: 'Shannon Lal is a hands-on CTO at Designstripe, leading their GenAI product development. With experience spanning startups to enterprises (IBM, RBC), his 20-year journey combines deep technical expertise with leadership roles at both early-stage startups and Fortune 500 companies.',
+    image: '/images/speakers/2024/shannon.jpg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/shannonlal/',
+      email: 'shannon@designstripe.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cd',
+  },
+  {
+    name: 'Boris-Wilfried Nyasse',
+    uuid: '123e4567-e89b-12d3-a456-426614174001',
+    slug: 'boris-wilfried-nyasse',
+    title: 'Senior Engineering Manager | Google Developer Expert | Software Developer',
+    shortBio: 'Embark on a journey from concept to MVP, revolutionizing emergency preparedness. Learn how to create a cross-platform app using cutting-edge technologies, integrating AI for personalized safety recommendations. Ideal for developers seeking to make a social impact through innovative mobile solutions.',
+    image: '/images/speakers/2024/boris.jpg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/bwnyasse/',
+      email: 'risbonyasse@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cc',
+  },
+  {
+    name: 'Kiruthika Subramani',
+    uuid: '123e4567-e89b-12d3-a456-426614174000',
+    slug: 'kiruthika-subramani',
+    title: 'Google Developer Expert in ML and IBM Champion for Data and AI',
+    shortBio: 'Kiruthika Subramani - Master\'s student at Mila, Quebec AI Institute. Google Cloud Champion Innovator, Women Techmakers Ambassador, spotlighted as IBM\'s Today\'s Architect. Author of two books and a prolific speaker with 205+ talks, I aim to advance AI responsibly while inspiring the tech community.',
+    image: '/images/speakers/2024/kiruthika-subramani.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/techwithkrithi/',
+      email: 'kiruthikas2020ai@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cb',
+  },
+  {
+    name: 'Stefania Pecore',
+    uuid: '08c71152-c552-42e7-b094-f510ff44e9cb',
+    slug: 'stefania-pecore',
+    title: 'Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador',
+    shortBio: `Stefania embarked on her journey with a university degree in foreign languages, recognizing the need for inclusive communication when language barriers existed. As the first to introduce an AI subject to her university in Italy focused on AI and automatic translation, her path unfolded. Subsequently, she pursued higher education, obtaining a master’s and Ph.D. in CS, programming, and NLP in France.
   With a passion for leveraging technology to enhance communication, she played a pivotal role in assisting numerous enterprises across diverse sectors—education, manufacturing, biotech, and even venturing into video games—by integrating NLP solutions into their products. Eager to share her insights, she became a mentor for women, holding positions as a Google Women Techmakers, Women in AI, and Women in Games Ambassador. In 2024, she became the lead of Google Women Techmakers Montréal. She was appointed as an AI Expert for UNESCO’s Women4Ethical AI allowing her to apply further her expertise in fostering responsible AI and supporting Ethical approaches in AI systems creation.`,
-  image: '/images/speakers/2024/stefania.jpg',
-  social: {
-    email: 'pecstef@gmail.com',
+    image: '/images/speakers/2024/stefania.jpg',
+    social: {
+      email: 'pecstef@gmail.com',
+    },
+    sessionUUID: '789c0123-d456-f789-0123-456789abcdef',
   },
-  sessionUUID: '789c0123-d456-f789-0123-456789abcdef',
-}, {
-  name: 'Stacy Véronneau',
-  uuid: 'c558a80a-f319-4c10-95d4-4282ef745b4b',
-  slug: 'stacy-veronneau',
-  title: 'Director of Professional Services and Sales Engineering',
-  shortBio: 'I am a passionate Cloud Evangelist and Technical Lead. I blend my strong business acumen with a deep knowledge of cloud technologies. My journey in tech is fueled by a love for learning and sharing knowledge, especially in cloud integration, security, AI, and operations. Whether you\'re a cloud newbie or a seasoned professional, I\'m here to engage in thoughtful discussions, collaborate on exciting projects, and share insights from my journey.',
-  image: '/images/speakers/2024/stacy_veronneau.png',
-  social: {
-    email: 'stacy.veronneau@gmail.com\n',
-    linkedIn: 'https://www.linkedin.com/in/stacyveronneau/',
+  {
+    name: 'Stacy Véronneau',
+    uuid: 'c558a80a-f319-4c10-95d4-4282ef745b4b',
+    slug: 'stacy-veronneau',
+    title: 'Director of Professional Services and Sales Engineering',
+    shortBio: 'I am a passionate Cloud Evangelist and Technical Lead. I blend my strong business acumen with a deep knowledge of cloud technologies. My journey in tech is fueled by a love for learning and sharing knowledge, especially in cloud integration, security, AI, and operations. Whether you\'re a cloud newbie or a seasoned professional, I\'m here to engage in thoughtful discussions, collaborate on exciting projects, and share insights from my journey.',
+    image: '/images/speakers/2024/stacy_veronneau.png',
+    social: {
+      email: 'stacy.veronneau@gmail.com\n',
+      linkedIn: 'https://www.linkedin.com/in/stacyveronneau/',
+    },
+    sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
   },
-  sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
+  {
+    name: 'Yan Bellerose',
+    slug: 'yan-bellerose',
+    uuid: '1ad1fccc-d279-46a0-8980-1d91afd6ba67',
+    title: 'Cloud Customer Engineering Security & Compliance at Google',
+    shortBio: 'As a technology enthusiast, I always develop new skills related to emerging technologies. As a technology architect, my approach is based on a balance between technical knowledge, business consideration, and innovation. Recognized as a professional in the field of cybersecurity, I had the opportunity to contribute to the gaming and entertainment industries of Montreal and work as a security freelancer before becoming a Googler.',
+    image: '/images/speakers/2024/yan.jpg',
+    social: {
+      email: 'stacy.veronneau@gmail.com\n',
+      linkedIn: 'https://www.linkedin.com/in/yanbellerose/',
+    },
+    sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
 
-}, {
-  name: 'Yan Bellerose',
-  slug: 'yan-bellerose',
-  uuid: '1ad1fccc-d279-46a0-8980-1d91afd6ba67',
-  title: 'Cloud Customer Engineering Security & Compliance at Google',
-  shortBio: 'As a technology enthusiast, I always develop new skills related to emerging technologies. As a technology architect, my approach is based on a balance between technical knowledge, business consideration, and innovation. Recognized as a professional in the field of cybersecurity, I had the opportunity to contribute to the gaming and entertainment industries of Montreal and work as a security freelancer before becoming a Googler.',
-  image: '/images/speakers/2024/yan.jpg',
-  social: {
-    email: 'stacy.veronneau@gmail.com\n',
-    linkedIn: 'https://www.linkedin.com/in/yanbellerose/',
-  },
-  sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
-
-}];
+  }];
