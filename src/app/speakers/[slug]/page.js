@@ -80,11 +80,15 @@ const SpeakerDetails = ({ params }) => {
         {/* session details */}
         {session &&
           <div id="sessionDetails" className="prose">
+
             <h2
               className="text-[min(7vw,40px)] leading-[1.3] tracking-tight font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mb-1">Session</h2>
             <h3
-              className="text-[min(7vw,25px)] leading-[1.3] tracking-tight font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mt-6">{session.title}</h3>
-
+              className="text-[min(7vw,25px)] leading-[1.3] tracking-tight font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mt-6 mb-0">{session.title}</h3>
+            {/* session time and room */}
+            <div className="flex mb-6">
+              <p className="text-gray-600 m-0">{session.room} ({new Date(session.startTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} ~ {new Date(session.endTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })})</p>
+            </div>
             <div className="prose lg:prose-base">
               {session.description.split('\n').map((paragraph, index) => (<p key={index}>{paragraph}</p>))}
             </div>
