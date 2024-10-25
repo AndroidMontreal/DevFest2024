@@ -1,5 +1,112 @@
 export const speakers2024 = [
   {
+    name: 'David Cardozo',
+    uuid: '123e4567-e89b-12d3-a456-42661417400c',
+    slug: 'david-cardozo',
+    title: 'Chief Lead Analyst, Senior Machine Learning Scientist @ Updata.ca | Google Developer Expert AI/Machine Learning JAX / Flax | Docker Captain | Engineering Management',
+    shortBio: `I am a Machine Learning Scientist and technologist, with a primary focus on utilizing cutting-edge technologies like Jax/Flax, Docker, Kubeflow, and TensorFlow create impactful products that address complex challenges. I am a seasoned infrastructure architect and cloud forensics technician with expertise in GCP (Google Cloud Platform) and Azure. I specialize in deploying MLOps (Machine Learning Operations) solutions using Kubeflow. I am a software developer with a diverse background in software exploitation, math, information security, open-source development, and DevOps practices. I have extensive experience in these areas, and I am particularly passionate about community engagement and leadership in ML communities both in Canada and Colombia. Additionally, I am a Google Developer Expert, Docker Captain, and Kubeflow Community member. Currently I am working as Chief Lead Analyst for Updata in Canada. I speak English, French & Spanish`,
+    image: '/images/speakers/2024/david.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/davidcardozo/',
+      email: 'germancho27@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d7',
+  },
+  {
+    name: 'Eric Ampire',
+    uuid: '123e4567-e89b-12d3-a456-42661417400b',
+    slug: 'eric-ampire',
+    title: 'Google Developer Expert for Android • Android & iOS Engineer at Bombardier Recreational Products @BRP • System Programming Enthusiast • C/C++, Kotlin, Swift',
+    shortBio: `Google Developer Expert for Android and Mobile Developer at Bombardier Recreational Product (BRP)
+ 
+
+ Google Developer Expert for Android, I am a software developer with over five years of experience in software development, specifically for Android and iOS. Although I sometimes develop web solutions, I currently work as Mobile Developer at BRP.
+ 
+
+ In addition to developing software, I like to share my knowledge by writing articles on various topics and getting involved in the local community. I am currently the leader of the Google Developer Group in Lubumbashi.
+ 
+
+ I also consult with various companies to help them implement multiple technology components.`,
+    image: '/images/speakers/2024/eric.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/eric-ampire/',
+      email: 'ericampire.top@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d6',
+  },
+  {
+    name: 'Gleb Otochkin',
+    uuid: '123e4567-e89b-12d3-a456-42661417400a',
+    slug: 'gleb-otochkin',
+    title: 'Cloud Advocate, Databases at Google',
+    shortBio: `Gleb is a Cloud Advocate at Google who specializes in Cloud Database technologies in the Google Cloud. He has over 20 years of experience in data-related technologies, and has expertise in a variety of areas, including relational databases, Big Data, application development, data replication and integration solutions, including products from Google, Oracle, AWS, Cloudera, and other vendors. He has been honored to be a presenter at various conferences in the USA, Europe, and APAC for many years.`,
+    image: '/images/speakers/2024/gleb.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/glebotochkin/',
+      email: 'otochkin@google.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d5',
+  },
+  {
+    name: 'Ashley Manraj',
+    uuid: '123e4567-e89b-12d3-a456-426614174009',
+    slug: 'ashley-manraj',
+    title: 'Chief Technology Officer at Pvotal Technologies',
+    shortBio: `Former pentester, spearheads the technology and development methodology at Pvotal Technologies for digital transformations and platform engineering.
+ In the front-end, we are developing with Flutter cross-platform using the BloC pattern to interact with our backends in gRPC and gRPC-web. On the ML and analytics side, we tend to stick to Vertex Pipelines, BigQuery and Dialogflow CX. Everything orchestrated strictly in infrastructure as code with containers.`,
+    image: '/images/speakers/2024/ashley.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/ashley-manraj-6b4655a9/',
+      email: 'prompt120@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d4',
+  },
+  {
+    name: 'Eckarath Khounsombath',
+    uuid: '123e4567-e89b-12d3-a456-426614174008',
+    slug: 'eckarath-khounsombath',
+    title: 'Digital Project Manager at Freelance',
+    shortBio: `I'm Eckarath, a solution architect with over 20 years of experience in the tech industry. Throughout my career, I've had the privilege of working on groundbreaking projects and implementing solutions from the early days of the Internet to the mobile revolution, the cloud transformation, and now the exciting field of artificial intelligence. My journey has taken me through some of the world's largest corporations, where I've tackled complex challenges and designed innovative solutions.
+ 
+
+ My passion for technology doesn't stop when I leave the office. In my free time, I'm constantly exploring new technologies, coding, and testing cutting-edge solutions. This hands-on approach is crucial for staying at the forefront of our rapidly evolving industry and allows me to bring practical, up-to-date insights to my work and presentations.
+ 
+
+ As a father of two boys, I understand the importance of balancing technological advancement with human-centric values. When I'm not immersed in tech, you might find me hiking trails, enjoying anime, or cheering for my favorite football team. These diverse interests contribute to a well-rounded perspective that I bring to my technical discussions and problem-solving approaches. I'm excited to share my knowledge and experiences with you, blending deep technical expertise with practical insights gained from years of implementing solutions across various industries.`,
+    image: '/images/speakers/2024/eckarath.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/eckarath/',
+      email: 'eckarath@eckastudio.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d3',
+  },
+  {
+    name: 'Vincent Salamanca-Gagnon',
+    uuid: '123e4567-e89b-12d3-a456-426614174007',
+    slug: 'vincent-salamanca-gagnon',
+    title: 'Software Developer at Transit',
+    shortBio: `A mobile developer passionate about UI engineering and crafting beautiful user experiences. I love building delightful software and exploring everything related to user interface design. Constantly learning and embracing new challenges, I'm dedicated to pushing the boundaries and experimenting with new technologies and ideas. I'm also an avid notetaker and a diehard fan of the Persona series.`,
+    image: '/images/speakers/2024/vincent.jpeg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/vincent-salamanca-gagnon-1a039ba1/',
+      email: 'hello@vinsg.ca',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d2',
+  },
+  {
+    name: 'Mathieu Fillion',
+    uuid: '123e4567-e89b-12d3-a456-426614174006',
+    slug: 'mathieu-fillion',
+    title: 'Development Teams Manager at nventive',
+    shortBio: `Mathieu is an experienced mobile developer who collaborated on dozens of mobile apps in the past decade. He's now guiding teams of software developers and constantly looking for ways to improve people's lives using technology.`,
+    image: '/images/speakers/2024/mathieu.jpg',
+    social: {
+      linkedIn: 'https://www.linkedin.com/in/matfillion/',
+      email: 'fillionmat@gmail.com',
+    },
+    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d1',
+  },
+  {
     name: 'Etienne Caron',
     uuid: '123e4567-e89b-12d3-a456-426614174005',
     slug: 'etienne-caron',
