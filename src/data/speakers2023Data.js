@@ -59,11 +59,6 @@ export const speakers2023 = [{
   image: '/images/speakers/2023/kevin.jpg',
   link: 'https://devfest2023.gdgmontreal.com/speaker/kevin-blanco/',
 }, {
-  name: 'Lenz Paul',
-  title: 'Software Engineer at CMiC | GDG & Flutter Montreal',
-  image: '/images/speakers/2023/lenz.jpg',
-  link: 'https://devfest2023.gdgmontreal.com/speaker/lenz-paul/',
-}, {
   name: 'Nav Singh',
   title: 'Google Developer Expert for Android, Organizer at GDG-Montreal, and write articles about Android and Kotlin',
   image: '/images/speakers/2023/nav.jpg',
