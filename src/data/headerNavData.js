@@ -3,6 +3,8 @@ export const headerNavData = [{
 }, {
   href: '/speakers', label: 'Speakers',
 }, {
+  href: '/schedule', label: 'Schedule',
+}, {
   href: '/team', label: 'Team',
 }];
 

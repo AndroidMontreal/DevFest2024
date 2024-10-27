@@ -10,7 +10,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/davidcardozo/',
       email: 'germancho27@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d7',
   },
   {
     name: 'Eric Ampire',
@@ -18,13 +17,13 @@ export const speakers2024 = [
     slug: 'eric-ampire',
     title: 'Google Developer Expert for Android • Android & iOS Engineer at Bombardier Recreational Products @BRP • System Programming Enthusiast • C/C++, Kotlin, Swift',
     shortBio: `Google Developer Expert for Android and Mobile Developer at Bombardier Recreational Product (BRP)
- 
+
 
  Google Developer Expert for Android, I am a software developer with over five years of experience in software development, specifically for Android and iOS. Although I sometimes develop web solutions, I currently work as Mobile Developer at BRP.
- 
+
 
  In addition to developing software, I like to share my knowledge by writing articles on various topics and getting involved in the local community. I am currently the leader of the Google Developer Group in Lubumbashi.
- 
+
 
  I also consult with various companies to help them implement multiple technology components.`,
     image: '/images/speakers/2024/eric.jpeg',
@@ -32,7 +31,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/eric-ampire/',
       email: 'ericampire.top@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d6',
   },
   {
     name: 'Gleb Otochkin',
@@ -45,7 +43,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/glebotochkin/',
       email: 'otochkin@google.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d5',
   },
   {
     name: 'Ashley Manraj',
@@ -59,7 +56,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/ashley-manraj-6b4655a9/',
       email: 'prompt120@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d4',
   },
   {
     name: 'Eckarath Khounsombath',
@@ -67,10 +63,10 @@ export const speakers2024 = [
     slug: 'eckarath-khounsombath',
     title: 'Digital Project Manager at Freelance',
     shortBio: `I'm Eckarath, a solution architect with over 20 years of experience in the tech industry. Throughout my career, I've had the privilege of working on groundbreaking projects and implementing solutions from the early days of the Internet to the mobile revolution, the cloud transformation, and now the exciting field of artificial intelligence. My journey has taken me through some of the world's largest corporations, where I've tackled complex challenges and designed innovative solutions.
- 
+
 
  My passion for technology doesn't stop when I leave the office. In my free time, I'm constantly exploring new technologies, coding, and testing cutting-edge solutions. This hands-on approach is crucial for staying at the forefront of our rapidly evolving industry and allows me to bring practical, up-to-date insights to my work and presentations.
- 
+
 
  As a father of two boys, I understand the importance of balancing technological advancement with human-centric values. When I'm not immersed in tech, you might find me hiking trails, enjoying anime, or cheering for my favorite football team. These diverse interests contribute to a well-rounded perspective that I bring to my technical discussions and problem-solving approaches. I'm excited to share my knowledge and experiences with you, blending deep technical expertise with practical insights gained from years of implementing solutions across various industries.`,
     image: '/images/speakers/2024/eckarath.jpeg',
@@ -78,7 +74,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/eckarath/',
       email: 'eckarath@eckastudio.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d3',
   },
   {
     name: 'Vincent Salamanca-Gagnon',
@@ -91,7 +86,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/vincent-salamanca-gagnon-1a039ba1/',
       email: 'hello@vinsg.ca',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d2',
   },
   {
     name: 'Mathieu Fillion',
@@ -104,7 +98,6 @@ export const speakers2024 = [
       linkedIn: 'https://www.linkedin.com/in/matfillion/',
       email: 'fillionmat@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d1',
   },
   {
     name: 'Etienne Caron',
@@ -127,7 +120,6 @@ Since pivoting to mobile development, Etienne has been an active community membe
       linkedIn: 'https://www.linkedin.com/in/etcaron',
       email: 'etienne.caron@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9d0',
   },
   {
     name: 'JL Marechaux',
@@ -153,7 +145,6 @@ Since pivoting to mobile development, Etienne has been an active community membe
       linkedIn: 'https://www.linkedin.com/in/medhamuppala/',
       email: 'medhamuppala@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9ce',
   },
   {
     name: 'Shannon Lal',
@@ -166,7 +157,6 @@ Since pivoting to mobile development, Etienne has been an active community membe
       linkedIn: 'https://www.linkedin.com/in/shannonlal/',
       email: 'shannon@designstripe.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cd',
   },
   {
     name: 'Boris-Wilfried Nyasse',
@@ -192,7 +182,6 @@ Since pivoting to mobile development, Etienne has been an active community membe
       linkedIn: 'https://www.linkedin.com/in/techwithkrithi/',
       email: 'kiruthikas2020ai@gmail.com',
     },
-    sessionUUID: '08c71152-c552-42e7-b094-f510ff44e9cb',
   },
   {
     name: 'Stefania Pecore',
@@ -218,7 +207,6 @@ Since pivoting to mobile development, Etienne has been an active community membe
       email: 'stacy.veronneau@gmail.com\n',
       linkedIn: 'https://www.linkedin.com/in/stacyveronneau/',
     },
-    sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
   },
   {
     name: 'Yan Bellerose',
@@ -231,6 +219,4 @@ Since pivoting to mobile development, Etienne has been an active community membe
       email: 'stacy.veronneau@gmail.com\n',
       linkedIn: 'https://www.linkedin.com/in/yanbellerose/',
     },
-    sessionUUID: '5108babc-bf35-44d5-a9ba-de08badfa80a',
-
   }];
