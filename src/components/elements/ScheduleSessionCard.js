@@ -40,7 +40,7 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
         <h5 className="text-xl mb-2 tracking-normal text-[#424242]">
           {sessionDetails?.title || 'Session Title'}
         </h5>
-        <div className="font-medium text-sm mb-8">{sessionDetails?.shortDescription || sessionDetails?.description}</div>
+        <div className="font-medium text-sm">{sessionDetails?.shortDescription || sessionDetails?.description}</div>
         {/* Add the icon */}
       </div>
 
@@ -54,7 +54,7 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
         {timeSlot.icon === 'PiCoffee' &&
           <PiCoffee className="w-28 h-28 text-[#e2e2e2] opacity-40" />}
       </div>
-
+      {speakers?.length > 0 && <div className='mt-8'></div>}
       <div className="flex flex-col gap-4">
         {speakers?.map((speaker, speakerIndex) => (
           <Link key={speakerIndex} href={`/speakers/${speaker.slug}`}>
