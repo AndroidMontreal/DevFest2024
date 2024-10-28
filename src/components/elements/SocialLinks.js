@@ -3,10 +3,10 @@
 import { FaDiscord, FaInstagram, FaLinkedinIn, FaXTwitter, FaYoutube } from 'react-icons/fa6';
 
 const socialLinksData = [
-  { href: 'https://x.com/gdgmontreal', icon: FaXTwitter, label: 'LinkedIn' },
-  { href: 'https://www.linkedin.com/company/gdgmontreal', icon: FaLinkedinIn, label: 'LinkedIn' },
-  { href: 'https://www.instagram.com/gdgmtl/', icon: FaInstagram, label: 'LinkedIn' },
-  { href: 'https://discord.com/invite/rKMxWWDSTT', icon: FaDiscord, label: 'LinkedIn' },
+  { href: 'https://x.com/gdgmontreal', icon: FaXTwitter, label: 'Twitter' },
+  { href: 'https://www.linkedin.com/company/gdgmontreal', icon: FaLinkedinIn, label: 'Linkedin' },
+  { href: 'https://www.instagram.com/gdgmtl/', icon: FaInstagram, label: 'Instagram' },
+  { href: 'https://discord.com/invite/rKMxWWDSTT', icon: FaDiscord, label: 'Discord' },
   { href: 'https://youtube.com/@gdgmontreal', icon: FaYoutube, label: 'YouTube' },
 ];
 

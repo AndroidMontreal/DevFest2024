@@ -26,7 +26,7 @@ Looking forward to exploring this exciting and innovative topic with you!
 `,
     shortDescription: 'This presentation explores the application of computer vision and machine learning models for real-time video and audio processing. We\'ll demonstrate how this technology can enable the creation of a whole new category of live-streaming applications.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174005'],
-    tag: ['AI', 'Mobile', 'Android', 'ML'],
+    tags: ['AI', 'Mobile', 'Android', 'ML'],
   }, {
     title: 'Security in AI and Security with AI - 2 sides of the same AI shiny coin',
     uuid: '5108babc-bf35-44d5-a9ba-de08badfa80a',
@@ -40,7 +40,7 @@ Security with AI: Discover how GCP’s security tools leverage AI to detect thre
 If you’re building or using AI in the cloud, this talk is your key to unlocking a future where AI innovation and security go hand-in-hand.`,
     shortDescription: 'This talk explores how to protect your GCP AI models and leverage AI-powered security solutions offered by GCP to ensure the safety of your cloud environment. This session is essential for anyone building AI solutions on GCP.',
     speakerUUID: ['c558a80a-f319-4c10-95d4-4282ef745b4b', '1ad1fccc-d279-46a0-8980-1d91afd6ba67'],
-    tag: ['AI', 'Cloud'],
+    tags: ['AI', 'Cloud'],
   }, {
     title: 'Advanced Pregnancy Risk Assessment Using AI Model Chain',
     uuid: '08c71152-c552-42e7-b094-f510ff44e9cb',
@@ -53,7 +53,7 @@ Attendees will gain valuable insights into the practical application of this mod
 Furthermore, I will highlight the benefits of combining machine learning with natural language processing in the healthcare sector. This includes improved accuracy in risk assessment, enhanced patient communication, and the potential for broader implementation across various healthcare settings. By the end of the session, attendees will have a thorough understanding of how this innovative approach can transform pregnancy risk management and contribute to better healthcare outcomes overall.`,
     shortDescription: 'Discover how integrating ML Model with Gemini LLM revolutionizes pregnancy risk management! Learn to predict risks, translate findings into regional languages, and enhance healthcare accessibility and accuracy. Join us to see ML and NLP in action for better healthcare outcomes!',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174000'],
-    tag: ['AI', 'Cloud', 'ML'],
+    tags: ['AI', 'Cloud', 'ML'],
   }, {
     title: 'Break', uuid: '27ff7729-5792-4efd-a813-321fd6523e63', description: 'description of Break', speakerUUID: [],
   }, {
@@ -61,19 +61,19 @@ Furthermore, I will highlight the benefits of combining machine learning with na
     uuid: '08c71152-c552-42e7-b094-f510ff44e9cc',
     description: `Embark on a journey from concept to MVP, revolutionizing emergency preparedness. Learn how to create a cross-platform app using cutting-edge technologies, integrating AI for personalized safety recommendations. Ideal for developers seeking to make a social impact through innovative mobile solutions.`,
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174001'],
-    tag: ['AI', 'ML', 'Mobile', 'Flutter'],
+    tags: ['AI', 'ML', 'Mobile', 'Flutter'],
   }, {
     title: 'The AI Power Team: Why Generative and Predictive Need Each Other',
     uuid: 'a47442e6-ff57-43ca-af40-7e2b4d46f93d',
     description: `Want to take your mobile app to the next level? We'll explore the small but powerful details that elevate apps from good to great. Through real-world examples and code, we'll cover animations, gestures, dialogs, useful native APIs, seamless keyboard interactions, and smooth authentication flows. Whether you're after quick wins or advanced techniques, this session will give you practical tips to enhance your app’s user experience.`,
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174004'],
-    tag: ['AI', 'Cloud', 'ML'],
+    tags: ['AI', 'Cloud', 'ML'],
   }, {
     title: 'Build your own chatbot with Gemini',
     uuid: '789c0123-d456-f789-0123-456789abcdef',
     description: `Devs will gain hands-on experience through step-by-step instructions on building a sample chatbot, from initial setup, deployment on GCP, and a basic UI. The talk also addresses important considerations like authentication, session management, and integration with other Google Cloud services.`,
     speakerUUID: ['08c71152-c552-42e7-b094-f510ff44e9cb'],
-    tag: ['AI', 'Gemini', 'ML'],
+    tags: ['AI', 'Gemini', 'ML'],
   }, {
     title: 'Lunch',
     uuid: '81debd8b-7e40-493f-8abe-6650ed08a289',
@@ -94,7 +94,7 @@ All you need for this workshop is:
 (Because of the limited time, we'll only be designing a few screens and not the entire app)`,
     shortDescription: 'Want to dive into UI design? Join this workshop to learn Figma basics and design your own app, even if you\'re not an artist.You\'ll get hands-on experience and create a portfolio piece. All you need is a laptop, a free Figma account, and enthusiasm.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174003'],
-    tag: ['UI', 'UX', 'Design', 'Mobile'],
+    tags: ['UI', 'UX', 'Design', 'Mobile'],
   },
   {
     title: 'Scaling AI on a Budget: A Startup\'s GPU Optimization Journey',
@@ -102,7 +102,7 @@ All you need for this workshop is:
     description: `Designstripe, led by serial entrepreneur François Arbour, revolutionizes AI-powered design. Designstripe’s CTO Shannon Lal reveals how they slashed cloud costs by 30% and boosted scaling speed by 25% for GPU-intensive features. Learn GCP optimizations applicable to startups and developers alike.`,
     shortDescription: 'Designstripe, led by serial entrepreneur François Arbour, revolutionizes AI-powered design. Designstripe’s CTO Shannon Lal reveals how they slashed cloud costs by 30% and boosted scaling speed by 25% for GPU-intensive features. Learn GCP optimizations applicable to startups and developers alike.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174002'],
-    tag: ['AI', 'Cloud', 'ML'],
+    tags: ['AI', 'Cloud', 'ML'],
   },
   {
     title: 'Parsing Inline Strings Across Platforms: Building a Small Cross-Platform Library',
@@ -113,7 +113,7 @@ All you need for this workshop is:
  This talk demystifies the process by introducing the fundamental concepts of constructing a small parser, using a practical use case to illustrate each step. Attendees will learn about building a lexer, parser construction, Abstract Syntax Tree (AST) generation, and error handling. The parsing logic is implemented within a Kotlin Multiplatform Library to accommodate platform-specific rendering, ensure consistency, and avoid code duplication across platforms.`,
     shortDescription: 'Learn how to create a small cross-platform parser for handling inline strings. This talk focuses on the journey of building a parsing library that can handle complex string formats, covering the basics of the parsing process, architecture decisions, and overcoming cross-platform challenges.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174007'],
-    tag: ['Android', 'Mobile'],
+    tags: ['Android', 'Mobile'],
   },
   {
     title: 'Break',
@@ -129,7 +129,7 @@ All you need for this workshop is:
     description: `Want to take your mobile app to the next level? We'll explore the small but powerful details that elevate apps from good to great. Through real-world examples and code, we'll cover animations, gestures, dialogs, useful native APIs, seamless keyboard interactions, and smooth authentication flows. Whether you're after quick wins or advanced techniques, this session will give you practical tips to enhance your app’s user experience.`,
     shortDescription: 'We\'ll explore the small but powerful details that elevate apps from good to great.We\'ll cover animations, gestures, seamless keyboard interactions, smooth authentication flows and more.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174006'],
-    tag: ['Flutter', 'Mobile', 'UX'],
+    tags: ['Flutter', 'Mobile', 'UX'],
   },
   {
     title: 'Unleash the Power of a Multi-LLM and Image Generation: Build Your Own Secured AI Platform with Google Cloud Vertex AI',
@@ -152,7 +152,7 @@ All you need for this workshop is:
   - **Agentic-Centric Solutions**: The Future of AI Interaction: Create AI agents that understand and respond to complex prompts, generating both text and images to fulfill user requests, from creative storytelling to research assistance.`,
     shortDescription: 'Escape AI vendor lock-in and build your own AI powerhouse. Learn how to seamlessly integrate multiple LLMs and image generation models using Google Cloud Vertex AI, enabling knowledge-based solutions, agentic interactions, and creative outputs – all while ensuring your data privacy and security.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174008'],
-    tag: ['AI', 'Cloud', 'ML'],
+    tags: ['AI', 'Cloud', 'ML'],
   },
   {
     title: 'Create a Digital ID with Identity Credentials API',
@@ -163,7 +163,7 @@ All you need for this workshop is:
  Attendees will learn how to leverage Android’s Identity Credentials API to create scalable, secure, and user-friendly solutions for verifying identity, complete with real-world examples and best practices for deployment. Whether you’re building apps for government, healthcare, or personal use, this talk will equip you with the tools to modernize identity management.`,
     shortDescription: 'In this talk, we\'ll delve into Android\'s Identity Credentials API to create scalable, secure and user-friendly solutions for identity verification.',
     speakerUUID: ['123e4567-e89b-12d3-a456-42661417400b'],
-    tag: ['Android', 'Mobile', 'Security'],
+    tags: ['Android', 'Mobile', 'Security'],
   },
   {
     title: 'Break',
@@ -181,7 +181,7 @@ All you need for this workshop is:
  We want to provide in this presentation the base bloc structure and key considerations to allow other developers to get inspired by this method to integrate similarly with their authentication providers. We want to also present the routes post-authentication to change one user's configurations dynamically depending on what was configured in their profile leveraging the UI node system of Ory Kratos.`,
     shortDescription: 'Making sure Flutter login works securely and coherently, without too many redirects on web, mobile, desktop is a challenge. We want to present our Bloc based login structure to support, including consent flows using open source Ory engines to manage end user to employees authentication.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174009'],
-    tag: ['Flutter', 'Mobile', 'Security'],
+    tags: ['Flutter', 'Mobile', 'Security'],
   },
   {
     title: 'RAG vs AI model tuning vs long context window and when to use each',
@@ -200,14 +200,14 @@ All you need for this workshop is:
  This presentation is designed for both newcomers to AI and those with experience in AI projects or applications.`,
     shortDescription: 'We hear a lot about different techniques adapting and preparing generic foundation models to use in different specialized cases. The techniques include long context windows, RAG and tuning AI models. Let\'s discuss cases and conditions which make one of those three ways more preferable than others.',
     speakerUUID: ['123e4567-e89b-12d3-a456-42661417400a'],
-    tag: ['AI', 'ML', 'Cloud'],
+    tags: ['AI', 'ML', 'Cloud'],
   }, {
     title: 'The Hitchhiker\'s Guide to MLOps',
     uuid: '08c71152-c552-42e7-b094-f510ff44e9d7',
     description: `This talk is your roadmap to mastering the three pillars of modern MLOps: Docker for containerizing model's code, Kubeflow for orchestrating pipelines, and Vertex AI for organizing. Whether you're looking to scale your models in production, this guide provides practical insights to make it happen.`,
     shortDescription: 'This talk is your roadmap to mastering the three pillars of modern MLOps: Docker for containerizing model\'s code, Kubeflow for orchestrating pipelines, and Vertex AI for organizing.',
     speakerUUID: ['123e4567-e89b-12d3-a456-42661417400c'],
-    tag: ['AI', 'ML'],
+    tags: ['AI', 'ML'],
   }, {
     title: 'Closing Note',
     uuid: '9ac5195c-b7c1-4e53-8f64-ceba480a6dc4',

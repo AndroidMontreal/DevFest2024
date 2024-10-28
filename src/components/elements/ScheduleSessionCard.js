@@ -79,11 +79,13 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
         ))}
       </div>
       {
-        sessionDetails.tag && <div className="flex">
-          {sessionDetails.tag.map((tag, tagIndex) => (
-            <div key={tagIndex} className="bg-[#f1f1f1] text-[#424242] text-xs px-2 py-1 rounded-md mr-2">
-              {tag}
-            </div>
+        sessionDetails.tags && <div className="flex">
+          {sessionDetails.tags.map((tag, tagIndex) => (
+            <Link key={tagIndex} href={`/schedule?tags=${tag.toLocaleLowerCase()}`}>
+              <div key={tagIndex} className="bg-[#f1f1f1] text-[#424242] text-xs px-2 py-1 rounded-md mr-2">
+                {tag}
+              </div>
+            </Link>
           ))}
         </div>
       }
