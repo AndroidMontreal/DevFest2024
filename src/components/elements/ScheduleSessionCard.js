@@ -55,7 +55,7 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
           <PiCoffee className="w-28 h-28 text-[#e2e2e2] opacity-40" />}
       </div>
       {speakers?.length > 0 && <div className='mt-8'></div>}
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col">
         {speakers?.map((speaker, speakerIndex) => (
           <Link key={speakerIndex} href={`/speakers/${speaker.slug}`}>
             <div className="flex items-center mb-4">
@@ -78,6 +78,15 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
           </Link>
         ))}
       </div>
+      {
+        sessionDetails.tag && <div className="flex">
+          {sessionDetails.tag.map((tag, tagIndex) => (
+            <div key={tagIndex} className="bg-[#f1f1f1] text-[#424242] text-xs px-2 py-1 rounded-md mr-2">
+              {tag}
+            </div>
+          ))}
+        </div>
+      }
     </div>
   );
 };
