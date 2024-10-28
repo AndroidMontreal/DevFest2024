@@ -15,14 +15,14 @@ export default function Schedule() {
         subTitleClassName="max-w-xl" />
 
 
-      <div className="py-8 md:mt-4 grid gap-x-4 gap-y-4 md:gap-y-6 xl:grid-cols-[max-content_1fr_1fr_1fr]">
+      <div className="py-8 md:mt-4 grid gap-x-4 gap-y-4 md:gap-y-6 lg:grid-cols-[max-content_1fr_1fr_1fr]">
 
         {/* Empty div for the top-left corner */}
-        <div></div>
+        <div></div><div></div><div></div><div></div>
 
-        {scheduleData.rooms.map((room) => (
+        {/* {scheduleData.rooms.map((room) => (
           room.name && <div className="font-medium text-lg ml-3" key={room.uuid}>{room.name}</div>
-        ))}
+        ))} */}
 
         {scheduleData.timeSlots.map((timeSlot, timeIndex) => (
 

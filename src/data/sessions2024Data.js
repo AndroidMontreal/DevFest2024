@@ -4,12 +4,12 @@ export const sessions2024Data = [//
   {
     title: 'Registration and some food / coffee',
     uuid: '246a17da-adf9-4d8e-9c50-ef84bdf68c55',
-    description: 'Description of Registration and some food / coffee',
+    // description: 'Description of Registration and some food / coffee',
     speakerUUID: [],
   }, {
     title: 'Keynote ( welcoming message + sponsors + explication of GDGs, GDSCs, WTM and Flutter Montreal )',
     uuid: '4d0cb762-4de4-43cf-b4ea-f02bcfa5b559',
-    description: 'Description of Keynote ( welcoming message + sponsors + explication of GDGs, GDSCs, WTM and Flutter Montreal )',
+    // description: 'Description of Keynote ( welcoming message + sponsors + explication of GDGs, GDSCs, WTM and Flutter Montreal )',
     speakerUUID: [],
   }, {
     title: 'Building an ML-powered Android Livestreaming App',
@@ -186,7 +186,7 @@ All you need for this workshop is:
   }, {
     title: 'Final note',
     uuid: '9ac5195c-b7c1-4e53-8f64-ceba480a6dc4',
-    description: 'Description of final note',
+    // description: 'Description of final note',
     speakerUUID: [],
   },
 
