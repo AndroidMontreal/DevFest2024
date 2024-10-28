@@ -28,7 +28,7 @@ Looking forward to exploring this exciting and innovative topic with you!
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174005'],
     tags: ['AI', 'Mobile', 'Android', 'ML'],
   }, {
-    title: 'Security in AI and Security with AI - 2 sides of the same AI shiny coin',
+    title: 'Al and Security: A double-edge sword?',
     uuid: '5108babc-bf35-44d5-a9ba-de08badfa80a',
     description: `Imagine a world where your AI models are not just smart but also secure, and your security tools are supercharged with AI’s predictive power.
 
@@ -40,7 +40,7 @@ Security with AI: Discover how GCP’s security tools leverage AI to detect thre
 If you’re building or using AI in the cloud, this talk is your key to unlocking a future where AI innovation and security go hand-in-hand.`,
     shortDescription: 'This talk explores how to protect your GCP AI models and leverage AI-powered security solutions offered by GCP to ensure the safety of your cloud environment. This session is essential for anyone building AI solutions on GCP.',
     speakerUUID: ['c558a80a-f319-4c10-95d4-4282ef745b4b', '1ad1fccc-d279-46a0-8980-1d91afd6ba67'],
-    tags: ['AI', 'Cloud'],
+    tags: ['AI', 'Cloud', 'Security'],
   }, {
     title: 'Advanced Pregnancy Risk Assessment Using AI Model Chain',
     uuid: '08c71152-c552-42e7-b094-f510ff44e9cb',
