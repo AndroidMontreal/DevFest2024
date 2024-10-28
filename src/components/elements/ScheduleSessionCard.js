@@ -37,10 +37,10 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
         <div className="flex items-center gap-2">
           {room?.name}
         </div>
-        <h5 className="text-xl mb-8 tracking-normal text-[#424242]">
+        <h5 className="text-xl mb-2 tracking-normal text-[#424242]">
           {sessionDetails?.title || 'Session Title'}
         </h5>
-        {/* <div className="font-medium text-sm mb-8">{sessionDetails?.description}</div> */}
+        <div className="font-medium text-sm mb-8">{sessionDetails?.shortDescription || sessionDetails?.description}</div>
         {/* Add the icon */}
       </div>
 
