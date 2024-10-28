@@ -200,7 +200,7 @@ Since pivoting to mobile development, Etienne has been an active community membe
     name: 'Stacy Véronneau',
     uuid: 'c558a80a-f319-4c10-95d4-4282ef745b4b',
     slug: 'stacy-veronneau',
-    title: 'Director of Professional Services and Sales Engineering',
+    title: 'Director of Professional Services and Sales Engineering at SE Cloud Experts',
     shortBio: 'I am a passionate Cloud Evangelist and Technical Lead. I blend my strong business acumen with a deep knowledge of cloud technologies. My journey in tech is fueled by a love for learning and sharing knowledge, especially in cloud integration, security, AI, and operations. Whether you\'re a cloud newbie or a seasoned professional, I\'m here to engage in thoughtful discussions, collaborate on exciting projects, and share insights from my journey.',
     image: '/images/speakers/2024/stacy_veronneau.png',
     social: {
