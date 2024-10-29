@@ -63,11 +63,20 @@ Furthermore, I will highlight the benefits of combining machine learning with na
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174001'],
     tags: ['AI', 'ML', 'Mobile', 'Flutter'],
   }, {
-    title: 'The AI Power Team: Why Generative and Predictive Need Each Other',
+    title: 'The Responsible AI Game',
     uuid: 'a47442e6-ff57-43ca-af40-7e2b4d46f93d',
-    description: `Want to take your mobile app to the next level? We'll explore the small but powerful details that elevate apps from good to great. Through real-world examples and code, we'll cover animations, gestures, dialogs, useful native APIs, seamless keyboard interactions, and smooth authentication flows. Whether you're after quick wins or advanced techniques, this session will give you practical tips to enhance your app’s user experience.`,
+    description: `Embark on a Responsible AI Quest! Gain valuable insights into the ethical considerations surrounding AI and learn how to mitigate potential harms. And Join the game and compete for the chance to be crowned the 'Guardian of Ethical AI'
+ 
+
+ What to Expect:
+ 
+
+ * Impactful Learning: Engage with key AI concepts. No prior AI knowledge is required!
+ * Interactive Gameplay: Play against fellow questers to tackle challenges in a fun and engaging ethical AI game.
+ * Ethical Exploration: Inspect real-world dilemmas and learn how to apply ethical frameworks to AI development and deployment.`,
+    shortDescription: 'Ready for an AI adventure? Join this interactive learning experience where you\'ll discover key ethical AI concepts and then play a game with all other participants. Bring your own device(laptop/phone) and play for a spot on the AI Quest podium.No AI skill is required to learn and enjoy the game.',
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174004'],
-    tags: ['AI', 'Cloud', 'ML'],
+    tags: ['AI', 'ML', 'ResponsibleAI', 'Ethics'],
   }, {
     title: 'Build your own chatbot with Gemini',
     uuid: '789c0123-d456-f789-0123-456789abcdef',
