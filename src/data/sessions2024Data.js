@@ -55,7 +55,11 @@ Furthermore, I will highlight the benefits of combining machine learning with na
     speakerUUID: ['123e4567-e89b-12d3-a456-426614174000'],
     tags: ['AI', 'Cloud', 'ML'],
   }, {
-    title: 'Break', uuid: '27ff7729-5792-4efd-a813-321fd6523e63', description: 'description of Break', speakerUUID: [],
+    title: 'Break',
+    uuid: '27ff7729-5792-4efd-a813-321fd6523e63',
+    description: 'Enjoy a break and network with other attendees',
+    shortDescription: 'Enjoy a break and network with other attendees',
+    speakerUUID: [],
   }, {
     title: 'Enhancing Community Resilience: From Concept to MVP with Flutter and GenAI',
     uuid: '08c71152-c552-42e7-b094-f510ff44e9cc',
