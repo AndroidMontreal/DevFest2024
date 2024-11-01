@@ -73,4 +73,9 @@ export const team = [{
   title: 'Android Developer at Transit | GDG Organizer',
   image: '/images/team/sam.jpg',
   link: 'https://www.linkedin.com/in/samueldionne',
+}, {
+  name: 'Arnaud Denis-Remillard',
+  title: 'Data Science Student',
+  image: '/images/team/arnaud.jpg',
+  link: 'https://www.linkedin.com/in/arnaud-denis-remillard-25b3a8296/',
 }];
