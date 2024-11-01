@@ -12,7 +12,7 @@ export default function Home() {
     <div id="speakers" className="flex flex-col gap-6 text-center items-center justify-center my-24">
       <TitleWithSubtitle
         title="Team"
-        subTitle="GDG Montreal team is all composed of volunteers who think that empowering, encouraging and inspiring women in tech is important."
+        subTitle="Meet the team behind DevFest Montreal! This passionate crew of tech enthusiasts brings the city’s biggest community-driven tech festival to life. From planning to design, they’re here to welcome you to a day filled with innovation, connection, and discovery."
         titleClassName="max-w-2xl"
         subTitleClassName="max-w-xl" />
 
