@@ -145,7 +145,7 @@ All you need for this workshop is:
     tags: ['Flutter', 'Mobile', 'UX'],
   },
   {
-    title: 'Unleash the Power of a Multi-LLM and Image Generation: Build Your Own Secured AI Platform with Google Cloud Vertex AI',
+    title: 'Build Your Own Secured AI Platform with Google Cloud Vertex AI by unleashing the Power of Multi-LLM',
     uuid: '08c71152-c552-42e7-b094-f510ff44e9d3',
     description: `In today's AI-driven world, organizations face the challenge of harnessing the power of Large Language Models (LLMs) while maintaining data privacy and avoiding dependency on a single provider. This talk presents a comprehensive solution: creating your own multi-LLM, image generation service using Google Cloud Platform.
 

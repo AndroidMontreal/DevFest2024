@@ -61,15 +61,9 @@ export const speakers2024 = [
     name: 'Eckarath Khounsombath',
     uuid: '123e4567-e89b-12d3-a456-426614174008',
     slug: 'eckarath-khounsombath',
-    title: 'Digital Project Manager at Freelance',
-    shortBio: `I'm Eckarath, a solution architect with over 20 years of experience in the tech industry. Throughout my career, I've had the privilege of working on groundbreaking projects and implementing solutions from the early days of the Internet to the mobile revolution, the cloud transformation, and now the exciting field of artificial intelligence. My journey has taken me through some of the world's largest corporations, where I've tackled complex challenges and designed innovative solutions.
-
-
- My passion for technology doesn't stop when I leave the office. In my free time, I'm constantly exploring new technologies, coding, and testing cutting-edge solutions. This hands-on approach is crucial for staying at the forefront of our rapidly evolving industry and allows me to bring practical, up-to-date insights to my work and presentations.
-
-
- As a father of two boys, I understand the importance of balancing technological advancement with human-centric values. When I'm not immersed in tech, you might find me hiking trails, enjoying anime, or cheering for my favorite football team. These diverse interests contribute to a well-rounded perspective that I bring to my technical discussions and problem-solving approaches. I'm excited to share my knowledge and experiences with you, blending deep technical expertise with practical insights gained from years of implementing solutions across various industries.`,
-    image: '/images/speakers/2024/eckarath.jpeg',
+    title: 'Business & Technology Architect | Driving Digital Transformation',
+    shortBio: `I'm Eckarath, an Everything Architect with over 20 years in tech. My journey's taken me from the internet's early days to the cloud and now AI, implementing groundbreaking solutions at top companies. I'm passionate about learning, always coding and exploring new technologies. This hands-on approach keeps me sharp and allows me to bring practical insights to my work. As a father of two, I balance tech with hiking, anime, and soccer. This well-rounded perspective fuels my problem-solving and technical discussions. I'm eager to share my knowledge and experiences with you, blending deep expertise with real-world lessons.`,
+    image: '/images/speakers/2024/eckarath.jpg',
     social: {
       linkedIn: 'https://www.linkedin.com/in/eckarath/',
       email: 'eckarath@eckastudio.com',
