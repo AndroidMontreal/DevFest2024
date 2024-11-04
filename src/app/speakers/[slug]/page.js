@@ -44,7 +44,7 @@ const SpeakerDetails = ({ params }) => {
               alt={speaker.name}
               width={350}
               height={550}
-              className="rounded-2xl transition duration-500 shadow-xl hover:shadow-2xl object-cover overflow-hidden w-full"
+              className="rounded-2xl aspect-square transition duration-500 shadow-xl hover:shadow-2xl object-cover overflow-hidden w-full"
             />
             <h1
               className="text-[min(9vw,50px)] leading-[1.3] tracking-tighter pt-10 font-semibold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 mb-1">{speaker.name}</h1>
