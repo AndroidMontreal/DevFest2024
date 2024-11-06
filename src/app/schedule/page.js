@@ -70,10 +70,6 @@ export default function Schedule() {
             {/* Render time slot */}
             <div className="text-2xl lg:text-xl tabular-nums text-neutral-950">
               <span className="opacity-80">{timeSlot.startTime}</span>
-              <span className={`${tags.length === 0 && 'xl:block'} opacity-50`}>
-                <span className={tags.length === 0 && "xl:hidden"}> - </span>
-                {timeSlot.endTime}
-              </span>
             </div>
 
             {/* Render sessions within the same time slot */}

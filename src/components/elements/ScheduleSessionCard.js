@@ -1,13 +1,20 @@
 // Session component
+import { scheduleData } from '@/data/scheduleData';
 import { sessions2024Data } from '@/data/sessions2024Data';
 import { speakers2024 } from '@/data/speakers2024Data';
-import { scheduleData } from '@/data/scheduleData';
 import Image from 'next/image';
-import { FaRegIdBadge } from 'react-icons/fa';
-import { MdOutlineFastfood } from 'react-icons/md';
-import { TbNotes } from 'react-icons/tb';
-import { PiCoffee } from 'react-icons/pi';
 import Link from 'next/link';
+import { FaCalendarPlus, FaRegIdBadge } from 'react-icons/fa';
+import { MdOutlineFastfood } from 'react-icons/md';
+import { PiCoffee } from 'react-icons/pi';
+import { TbNotes } from 'react-icons/tb';
+
+function generateGoogleCalendarLink(event) {
+  const startTime = (event.start).toISOString().replace(/-|:|\.\d+/g, "");
+  const endTime = (event.end).toISOString().replace(/-|:|\.\d+/g, "");
+
+  return `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${startTime}/${endTime}&details=${encodeURIComponent(event.description)}&location=${encodeURIComponent(event.location)}`;
+}
 
 export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
   const sessionDetails = sessions2024Data.find(
@@ -34,8 +41,24 @@ export const ScheduleSessionCard = ({ timeSlot, session, sessionIndex }) => {
       className={`p-5 relative h-full flex flex-col overflow-hidden justify-between border border-[#e2e2e2] hover:bg-[#f7f7f7] hover:cursor-pointer rounded-lg text-left ${sessionClassName}`}
     >
       <div className="flex flex-col justify-between items-start"> {/* Add a flex container */}
-        <div className="flex items-center gap-2">
-          {room?.name}
+        <div className="flex flex-row justify-between w-full">
+          <div className="flex items-center gap-2">
+            {room?.name}
+          </div>
+          <div>{!timeSlot.icon &&
+            <FaCalendarPlus className="w-6 h-6 text-[#424242]"
+              onClick={() => {
+                const link = generateGoogleCalendarLink({
+                  title: `${room?.name}: ${sessionDetails?.title}`,
+                  start: new Date(`2024-11-09T${timeSlot.startTime}-05:00`),
+                  end: new Date(`2024-11-09T${timeSlot.endTime}-05:00`),
+                  description: sessionDetails?.description,
+                  location: room?.name,
+                });
+                window.open(link, '_blank');
+              }}
+            />}
+          </div>
         </div>
         <h5 className="text-xl mb-2 tracking-normal text-[#424242]">
           {sessionDetails?.title || 'Session Title'}
