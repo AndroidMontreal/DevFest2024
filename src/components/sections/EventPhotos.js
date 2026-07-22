@@ -32,7 +32,7 @@ const EventPhotos = () => {
         })}
       </div>
 
-      <PillButton href="https://photos.app.goo.gl/x9j7BH3nK8TQJLpi6" label="All pictures" />
+      <PillButton href="https://photos.app.goo.gl/XvKQqBYzf2h92Fz7A" label="All pictures" />
     </div>
   );
 };
